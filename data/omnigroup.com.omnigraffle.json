@@ -1,0 +1,32 @@
+{
+    "name": "OmniGraffle",
+    "description": "OmniGraffle is a diagramming and digital illustration application for macOS and iOS. It is used for creating precise, beautiful graphics such as website wireframes, electrical systems, family trees, and maps. OmniGraffle provides a range of tools for drawing shapes, connecting lines, and adding text, making it suitable for both technical and creative projects.",
+    "url": "https://www.omnigroup.com/omnigraffle",
+    "categories": ["Graphic Design"],
+    "jobs": {
+        "situations": [
+            "want imagery to support a project"
+        ],
+        "motivations": [
+            "make information clearer",
+            "make information engaging",
+            "help visualize an idea"
+        ],
+        "outcomes": [
+            "create infographics",
+            "create a user interface mockup"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "semgrep.dev",
+            "decision": "past user",
+            "pricing": "commercial enterprise",
+            "learnability": "difficult",
+            "compatibility": "desktop application",
+            "notes": [
+                "Limited collaboration options with per-seat pricing."
+            ]
+        }
+    ]
+}

@@ -12,14 +12,19 @@
             "const": "Graphic Design"
         },
         "category-technical-writing": {
-            "description": "A tool for technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.",
+            "description": "Any tools for technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.",
             "type": "string",
             "const": "Technical Writing"
         },
         "category-public-speaking": {
-            "description": "A tool for public speaking. This is inclusive of presentation software, slide decks, and other tools used to create and deliver presentations.",
+            "description": "Any tools for public speakers. This is inclusive of presentation software, slide decks, and other devices used to create and deliver presentations.",
             "type": "string",
             "const": "Public Speaking"
+        },
+        "category-user-experience": {
+            "description": "A tool for user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.",
+            "type": "string",
+            "const": "User Experience"
         },
         "situation-need-imagery": {
             "description": "The situation is one where imagery is needed to support a project.",
@@ -139,7 +144,8 @@
                 "oneOf": [
                     {"$ref": "#/$defs/category-graphic-design"},
                     {"$ref": "#/$defs/category-technical-writing"},
-                    {"$ref": "#/$defs/category-public-speaking"}
+                    {"$ref": "#/$defs/category-public-speaking"},
+                    {"$ref": "#/$defs/category-user-experience"}
                 ]
             }
         },
@@ -233,7 +239,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "enum": ["open-source", "plugins", "config", "components"]
+                            "enum": ["open-source", "plugins", "config", "components", "none"]
                         }
                     },
                     "learnability": {

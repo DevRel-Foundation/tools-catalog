@@ -1,0 +1,32 @@
+{
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "description": "Figma is a web-based interface design tool that allows users to create, prototype, and collaborate on designs in real-time. It is widely used for UI/UX design, enabling teams to work together seamlessly on projects, share feedback, and iterate quickly.",
+    "categories": ["Graphic Design", "User Experience"],
+    "jobs": {
+        "situations": [
+            "want imagery to support a project"
+        ],
+        "motivations": [
+            "create a visual identity",
+            "make information engaging",
+            "help visualize an idea",
+            "internal collaboration"
+        ],
+        "outcomes": [
+            "create a user interface mockup"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "semgrep.dev",
+            "decision": "adopted",
+            "pricing": "commercial enterprise",
+            "learnability": "average",
+            "compatibility": "web-based",
+            "notes": [
+                "Has role-based access control to manage usage and costs."
+            ]
+        }
+    ]
+}
