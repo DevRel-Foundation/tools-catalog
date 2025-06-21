@@ -2,10 +2,10 @@
     "name": "Docusaurus",
     "description": "Docusaurus is an open-source static site generator designed for building documentation websites. It is built by Facebook and supports Markdown, versioning, and localization.",
     "url": "https://docusaurus.io",
-    "categories": [
-        "Technical Writing"
-    ],
     "jobs": {
+        "categories": [
+            "Technical Writing"
+        ],
         "situations": [
             "manage documentation for a project",
             "provide instructions"

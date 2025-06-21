@@ -2,8 +2,8 @@
     "name": "Draw.io",
     "url": "https://www.draw.io",
     "description": "Draw.io is a free online diagramming tool that allows users to create flowcharts, network diagrams, UML diagrams, and other types of visual representations. It features a user-friendly interface with drag-and-drop functionality and supports collaboration through cloud storage or local filesystem integration.",
-    "categories": ["Graphic Design"],
     "jobs": {
+        "categories": ["Graphic Design"],
         "situations": [
             "want imagery to support a project"
         ],

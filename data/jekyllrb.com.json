@@ -1,12 +1,14 @@
 {
     "name": "Jekyll",
-    "url": "https://jekyllrb.com",
     "description": "Jekyll is a simple, blog-aware static site generator written in Ruby that takes plain text files and converts them into a complete static website. It is often used with GitHub Pages to create personal, project, or organizational websites. Jekyll supports various templating features and allows for easy content management through Markdown files.",
-    "categories": [
-        "Technical Writing", 
-        "Developer Marketing"
-    ],
+    "url": "https://jekyllrb.com",
+    "labels": ["static site generator"],
     "jobs": {
+        "categories": [
+            "Technical Writing", 
+            "Developer Marketing",
+            "Web Development"
+        ],
         "situations": [
             "manage a public website"
         ],

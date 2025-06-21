@@ -2,11 +2,13 @@
     "name": "Gatsby",
     "description": "Gatsby is a React-based open-source framework for building fast, modern websites and applications. It uses GraphQL to pull in data from various sources and generate static pages for optimal web performance. Gatsby is known for its speed, scalability, and ability to integrate with various CMSs and APIs.",
     "url": "https://www.gatsbyjs.com",
-    "categories": [
-        "Technical Writing",
-        "Developer Marketing"
-    ],
+    "labels": ["static site generator"],
     "jobs": {
+        "categories": [
+            "Technical Writing",
+            "Developer Marketing",
+            "Web Development"
+        ],
         "situations": [
             "manage a public website"
         ],

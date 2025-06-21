@@ -2,8 +2,8 @@
     "name": "Figma",
     "url": "https://www.figma.com",
     "description": "Figma is a web-based interface design tool that allows users to create, prototype, and collaborate on designs in real-time. It is widely used for UI/UX design, enabling teams to work together seamlessly on projects, share feedback, and iterate quickly.",
-    "categories": ["Graphic Design", "User Experience"],
     "jobs": {
+        "categories": ["Graphic Design", "User Experience"],
         "situations": [
             "want imagery to support a project"
         ],

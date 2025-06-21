@@ -31,6 +31,11 @@
             "type": "string",
             "const": "Developer Marketing"
         },
+        "category-web-development": {
+            "description": "Any tools for web development. This includes static site generators, content management systems, and other tools used to create and manage websites.",
+            "type": "string",
+            "const": "Web Development"
+        },
         "situation-need-imagery": {
             "description": "The situation is one where imagery is needed to support a project.",
             "type": "string",
@@ -157,27 +162,40 @@
             "description": "Description of the tool.",
             "type": "string"
         },
-        "categories": {
-            "description": "Categories of work or roles the tool is commonly used for.",
-            "type": "array",
-            "items": {
-                "oneOf": [
-                    {"$ref": "#/$defs/category-graphic-design"},
-                    {"$ref": "#/$defs/category-technical-writing"},
-                    {"$ref": "#/$defs/category-public-speaking"},
-                    {"$ref": "#/$defs/category-user-experience"},
-                    {"$ref": "#/$defs/category-developer-marketing"}
-                ]
-            }
-        },
         "name": {
             "description": "Name of the tool.",
             "type": "string"
+        },
+        "labels": {
+            "description": "Labels or tags that describe the tool.",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "static site generator",
+                    "content management system",
+                    "diagramming"
+                ]
+            }
         },
         "jobs": {
             "description": "Jobs to be done by a tool useful for Developer Relations.",
             "type": "object",
             "properties": {
+                "categories": {
+                    "description": "Job categories of work or roles the tool is commonly used for.",
+                    "type": "array",
+                    "items": {
+                        "oneOf": [
+                            {"$ref": "#/$defs/category-graphic-design"},
+                            {"$ref": "#/$defs/category-technical-writing"},
+                            {"$ref": "#/$defs/category-public-speaking"},
+                            {"$ref": "#/$defs/category-user-experience"},
+                            {"$ref": "#/$defs/category-developer-marketing"},
+                            {"$ref": "#/$defs/category-web-development"}
+                        ]
+                    }
+                },
                 "situations": {
                     "description": "'When I' situation where a tool is needed to do a job.",
                     "type": "array",
@@ -226,7 +244,7 @@
                     }
                 }
             },
-            "required": ["situations", "motivations", "outcomes"]
+            "required": ["categories", "situations", "motivations", "outcomes"]
         },
         "evaluation": {
             "description": "Evaluation criteria for the tool.",
@@ -288,6 +306,6 @@
             "required": ["team", "decision"]
         }
     },
-    "required": ["url", "name", "jobs", "evaluation", "categories", "description"],
+    "required": ["url", "name", "jobs", "evaluation", "description"],
     "additionalProperties": false
 }
