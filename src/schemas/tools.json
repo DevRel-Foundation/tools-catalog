@@ -200,36 +200,62 @@
         },
         "evaluation": {
             "description": "Evaluation criteria for the tool.",
-            "type": "object",
-            "properties": {
-                "performance": {
-                    "description": "Performance of the tool.",
-                    "type": "string"
-                },
-                "price": {
-                    "description": "Price of the tool.",
-                    "type": "string"
-                },
-                "customizability": {
-                    "description": "Customizability of the tool.",
-                    "type": "string"
-                },
-                "learnability": {
-                    "description": "Learnability of the tool.",
-                    "type": "string"
-                },
-                "compatibility": {
-                    "description": "Compatibility of the tool with other tools or systems.",
-                    "type": "string"
-                }
-            }
-        },
-        "teams": {
-            "description": "DevRel teams or organizations that use the tool for their workflows.",
             "type": "array",
             "items": {
-                "type": "string"
-            }
+                "type": "object",
+                "properties": {
+                    "team": {
+                        "description": "The DevRel team or organization that evaluated the tool.",
+                        "type": "string"
+                    },
+                    "decision": {
+                        "description": "Decision made by the team regarding the tool.",
+                        "type": "string",
+                        "enum": ["adopted", "rejected", "considering", "past user"]
+                    },
+                    "pricing": {
+                        "description": "Pricing model for using the tool.",
+                        "type": "string",
+                        "enum": ["free open-source", "limited free", "commercial self-service", "commercial enterprise"]
+                    },
+                    "performance": {
+                        "description": "Performance criteria for tool selection.",
+                        "type": "string",
+                        "enum": ["good", "average", "poor"]
+                    },
+                    "support": {
+                        "description": "Support options available for the tool.",
+                        "type": "string",
+                        "enum": ["community support", "commercial support", "no support"]
+                    },
+                    "customizability": {
+                        "description": "Customizability of the tool.",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": ["open-source", "plugins", "config", "components"]
+                        }
+                    },
+                    "learnability": {
+                        "description": "Ease of learning the tool.",
+                        "type": "string",
+                        "enum": ["easy", "average", "difficult"]
+                    },
+                    "compatibility": {
+                        "description": "Compatibility of the tool with existing systems.",
+                        "type": "string",
+                        "enum": ["web-based", "desktop application", "mobile application", "command-line interface", "physical device", "framework"]
+                    },
+                    "notes": {
+                        "description": "Additional notes or comments from the evaluation team.",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "required": ["team", "decision"]
         }
     },
     "required": ["url", "name", "jobs", "evaluation", "categories", "description"],

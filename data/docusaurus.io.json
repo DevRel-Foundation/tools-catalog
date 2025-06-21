@@ -21,14 +21,14 @@
             "create a conceptual guide"
         ]
     },
-    "evaluation": {
-        "performance": "",
-        "price": "",
-        "customizability": "",
-        "learnability": "",
-        "compatibility": ""
-    },
-    "teams": [
-        "semgrep.dev"
+    "evaluation": [
+        { 
+            "team": "semgrep.dev",
+            "decision": "adopted",
+            "pricing": "free open-source",
+            "compatibility": "framework",
+            "customizability": ["components", "config", "open-source"],
+            "notes": []
+        }
     ]
 }

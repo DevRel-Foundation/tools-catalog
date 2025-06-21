@@ -19,14 +19,14 @@
             "create an avatar"
         ]
     },
-    "evaluation": {
-        "performance": "",
-        "price": "",
-        "customizability": "",
-        "learnability": "",
-        "compatibility": ""
-    },
-    "teams": [
-        "semgrep.dev"
+    "evaluation": [
+        { 
+            "team": "semgrep.dev",
+            "decision": "adopted",
+            "pricing": "commercial self-service",
+            "learnability": "easy",
+            "compatibility": "web-based",
+            "notes": []
+        }
     ]
 }
