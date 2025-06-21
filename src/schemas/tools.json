@@ -22,9 +22,14 @@
             "const": "Public Speaking"
         },
         "category-user-experience": {
-            "description": "A tool for user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.",
+            "description": "Any tools for defining or understanding user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.",
             "type": "string",
             "const": "User Experience"
+        },
+        "category-developer-marketing": {
+            "description": "Any tool or product for developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).",
+            "type": "string",
+            "const": "Developer Marketing"
         },
         "situation-need-imagery": {
             "description": "The situation is one where imagery is needed to support a project.",
@@ -35,6 +40,11 @@
             "description": "Whether setting up docs from scratch or existing documentation to migrate for a project, this situation requires a tool to help with documentation management.",
             "type": "string",
             "const": "manage documentation for a project"
+        },
+        "situation-manage-website": {
+            "description": "The situation is one where a website needs to be created or managed, such as a Developer Portal or other marketing site using content management systems and website builders.",
+            "type": "string",
+            "const": "manage a public website"
         },
         "situation-need-instructions": {
             "description": "The situation is one where documentation needs to be written or edited to explain how to accomplish a goal.",
@@ -86,6 +96,11 @@
             "type": "string",
             "const": "reuse specification and inline documentation"
         },
+        "motivation-deliver-marketing-messages": {
+            "description": "A tool that helps deliver marketing messages and positioning, so that the company can effectively communicate its value proposition to developers.",
+            "type": "string",
+            "const": "deliver marketing messages and positioning"
+        },
         "outcome-create-infographics": {
             "description": "Infographics can convey complex information visually which aids with understanding. It may convey graphically relationships between objects, quantitative information summarized, etc.\n\nThis may include architecture diagrams, dataflow diagrams, E-R diagrams, and similar development-oriented tasks.",
             "type": "string",
@@ -125,6 +140,11 @@
             "description": "create an API reference",
             "type": "string",
             "const": "create an API reference"
+        },
+        "outcome-create-website": {
+            "description": "create a static site or progressive web app",
+            "type": "string",
+            "const": "create a website"
         }
     },
     "properties": {
@@ -145,7 +165,8 @@
                     {"$ref": "#/$defs/category-graphic-design"},
                     {"$ref": "#/$defs/category-technical-writing"},
                     {"$ref": "#/$defs/category-public-speaking"},
-                    {"$ref": "#/$defs/category-user-experience"}
+                    {"$ref": "#/$defs/category-user-experience"},
+                    {"$ref": "#/$defs/category-developer-marketing"}
                 ]
             }
         },
@@ -164,7 +185,8 @@
                         "oneOf": [
                             {"$ref": "#/$defs/situation-manage-docs"},
                             {"$ref": "#/$defs/situation-need-imagery"},
-                            {"$ref": "#/$defs/situation-need-instructions"}
+                            {"$ref": "#/$defs/situation-need-instructions"},
+                            {"$ref": "#/$defs/situation-manage-website"}
                         ]
                     }
                 },
@@ -181,7 +203,8 @@
                             {"$ref": "#/$defs/motivation-clear-communication"},
                             {"$ref": "#/$defs/motivation-internal-collaboration"},
                             {"$ref": "#/$defs/motivation-external-contributors"},
-                            {"$ref": "#/$defs/motivation-reuse-spec-and-inline-documentation"}
+                            {"$ref": "#/$defs/motivation-reuse-spec-and-inline-documentation"},
+                            {"$ref": "#/$defs/motivation-deliver-marketing-messages"}
                         ]
                     }
                 },
@@ -197,7 +220,8 @@
                             {"$ref": "#/$defs/outcome-create-mockup"},
                             {"$ref": "#/$defs/outcome-create-tutorial"},
                             {"$ref": "#/$defs/outcome-create-guide"},
-                            {"$ref": "#/$defs/outcome-create-api-ref"}
+                            {"$ref": "#/$defs/outcome-create-api-ref"},
+                            {"$ref": "#/$defs/outcome-create-website"}
                         ]
                     }
                 }
@@ -227,7 +251,7 @@
                     "performance": {
                         "description": "Performance criteria for tool selection.",
                         "type": "string",
-                        "enum": ["good", "average", "poor"]
+                        "enum": ["good", "average", "poor", "high"]
                     },
                     "support": {
                         "description": "Support options available for the tool.",
@@ -239,7 +263,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "enum": ["open-source", "plugins", "config", "components", "none"]
+                            "enum": ["open-source", "plugins", "themes", "config", "components", "none"]
                         }
                     },
                     "learnability": {
