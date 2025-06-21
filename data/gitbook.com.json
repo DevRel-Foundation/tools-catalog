@@ -1,0 +1,32 @@
+{
+    "name": "Gitbook",
+    "description": "Gitbook is a documentation platform that allows teams to create, manage, and share documentation easily using Markdown. It provides features for real-time collaboration, version control, and integration with various tools.",
+    "url": "https://www.gitbook.com",
+    "labels": ["docs", "content management system"],
+    "jobs": {
+        "categories": [
+            "Technical Writing"
+        ],
+        "situations": [
+            "manage documentation for a project",
+            "provide instructions"
+        ],
+        "motivations": [
+            "organize knowledge",
+            "internal collaboration",
+            "external contributors"
+        ],
+        "outcomes": [
+            "create an API reference",
+            "create a tutorial",
+            "create a conceptual guide"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "n/a",
+            "pricing": "commercial enterprise",
+            "compatibility": "web-based"
+        }
+    ]
+}

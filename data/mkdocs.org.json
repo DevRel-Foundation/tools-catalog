@@ -1,7 +1,7 @@
 {
-    "name": "Docusaurus",
-    "description": "Docusaurus is an open-source static site generator designed for building documentation websites. It is built by Facebook and supports Markdown, versioning, and localization.",
-    "url": "https://docusaurus.io",
+    "name": "MkDocs",
+    "description": "MkDocs is a static site generator that's geared towards project documentation. It uses Markdown for writing content and provides a simple way to create and maintain documentation sites.",
+    "url": "https://www.mkdocs.org",
     "labels": ["docs", "content management system", "static site generator"],
     "jobs": {
         "categories": [
@@ -24,12 +24,9 @@
     },
     "evaluation": [
         { 
-            "team": "semgrep.dev",
-            "decision": "adopted",
+            "team": "n/a",
             "pricing": "free open-source",
-            "compatibility": "framework",
-            "customizability": ["components", "config", "open-source"],
-            "notes": []
+            "customizability": ["components", "config", "open-source"]
         }
     ]
 }

@@ -174,7 +174,10 @@
                 "enum": [
                     "static site generator",
                     "content management system",
-                    "diagramming"
+                    "docs",
+                    "hosting",
+                    "forums",
+                    "books"
                 ]
             }
         },

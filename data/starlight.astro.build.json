@@ -1,8 +1,8 @@
 {
-    "name": "Docusaurus",
-    "description": "Docusaurus is an open-source static site generator designed for building documentation websites. It is built by Facebook and supports Markdown, versioning, and localization.",
-    "url": "https://docusaurus.io",
-    "labels": ["docs", "content management system", "static site generator"],
+    "name": "Starlight",
+    "description": "Starlight is a static site generator designed for building documentation websites. It is built on top of Astro and provides a simple way to create and maintain documentation sites with a focus on performance and ease of use. Starlight supports Markdown and offers features like theming, search, and versioning.",
+    "url": "https://starlight.astro.build/",
+    "labels": ["static site generator", "docs", "content management system"],
     "jobs": {
         "categories": [
             "Technical Writing"
@@ -23,12 +23,11 @@
         ]
     },
     "evaluation": [
-        { 
-            "team": "semgrep.dev",
-            "decision": "adopted",
+        {
+            "team": "n/a",
             "pricing": "free open-source",
             "compatibility": "framework",
-            "customizability": ["components", "config", "open-source"],
+            "customizability": ["components", "config"],
             "notes": []
         }
     ]
