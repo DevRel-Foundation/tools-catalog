@@ -1,0 +1,101 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/DevRel-Foundation/tools-catalog/blob/main/src/schemas/tools.json",
+    "title": "Tools Schema",
+    "description": "DevRel Foundation Tools Catalog Schema",
+    "version": "1.0",
+    "type": "object",
+    "properties": {
+        "url": {
+            "description": "URL of the tool",
+            "type": "string",
+            "format": "uri"
+        },
+        "description": {
+            "description": "Description of the tool.",
+            "type": "string"
+        },
+        "name": {
+            "description": "Name of the tool.",
+            "type": "string"
+        },
+        "jobs": {
+            "description": "Jobs to be done by a tool useful for Developer Relations.",
+            "type": "object",
+            "properties": {
+                "situations": {
+                    "description": "'When I' situation where a tool is needed to do a job.",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "manage documentation for an existing project",
+                            "setup documentation for a new project",
+                            "want imagery to support a project"
+                        ]
+                    }
+                },
+                "motivations": {
+                    "description": "'I want to' motivations for selecting a tool.",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "make information clearer",
+                            "create a visual identity",
+                            "make information more engaging",
+                            "help visualize an idea",
+                            "organize knowledge"
+                        ]
+                    }
+                },
+                "outcomes": {
+                    "description": "'so I can' expected results and outputs from the tool.",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "create infographics",
+                            "create graphic design assets",
+                            "create a logo",
+                            "create an avatar",
+                            "create a user interface mockup",
+                            "create a tutorial",
+                            "create a conceptual guide",
+                            "create an API reference"
+                        ]
+                    }
+                }
+            },
+            "required": ["situations"]
+        },
+        "evaluation": {
+            "description": "Evaluation criteria for the tool.",
+            "type": "object",
+            "properties": {
+                "performance": {
+                    "description": "Performance of the tool.",
+                    "type": "string"
+                },
+                "price": {
+                    "description": "Price of the tool.",
+                    "type": "string"
+                },
+                "customizability": {
+                    "description": "Customizability of the tool.",
+                    "type": "string"
+                },
+                "learnability": {
+                    "description": "Learnability of the tool.",
+                    "type": "string"
+                },
+                "compatibility": {
+                    "description": "Compatibility of the tool with other tools or systems.",
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "required": ["url", "name", "jobs", "evaluation"],
+    "additionalProperties": false
+}
