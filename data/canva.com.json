@@ -2,13 +2,16 @@
     "name": "Canva",
     "url": "https://www.canva.com",
     "description": "Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements.",
+    "categories": [
+        "Graphic Design"
+    ],
     "jobs": {
         "situations": [
             "want imagery to support a project"
         ],
         "motivations": [
             "create a visual identity",
-            "make information more engaging"
+            "make information engaging"
         ],
         "outcomes": [
             "create graphic design assets",
@@ -22,5 +25,8 @@
         "customizability": "",
         "learnability": "",
         "compatibility": ""
-    }
+    },
+    "teams": [
+        "semgrep.dev"
+    ]
 }

@@ -5,15 +5,143 @@
     "description": "DevRel Foundation Tools Catalog Schema",
     "version": "1.0",
     "type": "object",
+    "$defs": {
+        "category-graphic-design": {
+            "description": "An organization may have dedicated design resources, outsource to independent contractors on a per-project basis, or may need to be done by developer relations roles themselves.",
+            "type": "string",
+            "const": "Graphic Design"
+        },
+        "category-technical-writing": {
+            "description": "A tool for technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.",
+            "type": "string",
+            "const": "Technical Writing"
+        },
+        "category-public-speaking": {
+            "description": "A tool for public speaking. This is inclusive of presentation software, slide decks, and other tools used to create and deliver presentations.",
+            "type": "string",
+            "const": "Public Speaking"
+        },
+        "situation-need-imagery": {
+            "description": "The situation is one where imagery is needed to support a project.",
+            "type": "string",
+            "const": "want imagery to support a project"
+        },
+        "situation-manage-docs": {
+            "description": "Whether setting up docs from scratch or existing documentation to migrate for a project, this situation requires a tool to help with documentation management.",
+            "type": "string",
+            "const": "manage documentation for a project"
+        },
+        "situation-need-instructions": {
+            "description": "The situation is one where documentation needs to be written or edited to explain how to accomplish a goal.",
+            "type": "string",
+            "const": "provide instructions"
+        },
+        "motivation-make-information-clearer": {
+            "description": "A picture to complement other information can help make relationships and structure much more clear.",
+            "type": "string",
+            "const": "make information clearer"
+        },
+        "motivation-create-visual-identity": {
+            "description": "A collection of visual elements can be reused by others for various purposes.",
+            "type": "string",
+            "const": "create a visual identity"
+        },
+        "motivation-make-information-engaging": {
+            "description": "A polished experience with visual elements can grab a user's attention to make it more engaging and emphasize ideas, manage flow through a page, or identify similar items within visual groupings.",
+            "type": "string",
+            "const": "make information engaging"
+        },
+        "motivation-visualize-idea": {
+            "description": "Capture complex or abstract ideas into something visual that helps others imagine what a thing might look like.",
+            "type": "string",
+            "const": "help visualize an idea"
+        },
+        "motivation-organize-knowledge": {
+            "description": "Organize knowledge in a way that is easy to understand and navigate.",
+            "type": "string",
+            "const": "organize knowledge"
+        },
+        "motivation-clear-communication": {
+            "description": "Ensure that the quality of the writing meets the standards required for understanding and clarity.",
+            "type": "string",
+            "const": "ensure clear communication"
+        },
+        "motivation-internal-collaboration": {
+            "description": "A tool that helps with collaboration, so that multiple team members can work together on a project, share ideas, and provide feedback.",
+            "type": "string",
+            "const": "internal collaboration"
+        },
+        "motivation-external-contributors": {
+            "description": "A tool that allows for external contributors, so that the community can help with documentation, tutorials, or other content.",
+            "type": "string",
+            "const": "external contributors"
+        },
+        "motivation-reuse-spec-and-inline-documentation": {
+            "description": "Inline documentation or specifications from source-code is a way to document code directly within the codebase, and allows for reuse in generating user documentation.",
+            "type": "string",
+            "const": "reuse specification and inline documentation"
+        },
+        "outcome-create-infographics": {
+            "description": "Infographics can convey complex information visually which aids with understanding. It may convey graphically relationships between objects, quantitative information summarized, etc.\n\nThis may include architecture diagrams, dataflow diagrams, E-R diagrams, and similar development-oriented tasks.",
+            "type": "string",
+            "const": "create infographics"
+        },
+        "outcome-create-graphics": {
+            "description": "Graphic design assets unite a brand to tell a story and may take many forms such as page dividers, social banners, in-page graphic elements, etc.",
+            "type": "string",
+            "const": "create graphic design assets"
+        },
+        "outcome-create-logo": {
+            "description": "The company logo and variations of it are central to the design system of a company. There are tools that help specifically to design and edit logos.",
+            "type": "string",
+            "const": "create a logo"
+        },
+        "outcome-create-avatar": {
+            "description": "The individual person or company mascot provides a personification of a brand in the form of an avatar.",
+            "type": "string",
+            "const": "create an avatar"
+        },
+        "outcome-create-mockup": {
+            "description": "A mockup helps convey interactions and visual elements that must be constructed by others in either low fidelity or full design elements to help understand the scope of work.",
+            "type": "string",
+            "const": "create a user interface mockup"
+        },
+        "outcome-create-tutorial": {
+            "description": "create a tutorial",
+            "type": "string",
+            "const": "create a tutorial"
+        },
+        "outcome-create-guide": {
+            "description": "create a conceptual guide",
+            "type": "string",
+            "const": "create a conceptual guide"
+        },
+        "outcome-create-api-ref": {
+            "description": "create an API reference",
+            "type": "string",
+            "const": "create an API reference"
+        }
+    },
     "properties": {
         "url": {
-            "description": "URL of the tool",
+            "description": "URL to learn more about the tool.",
             "type": "string",
             "format": "uri"
         },
         "description": {
             "description": "Description of the tool.",
             "type": "string"
+        },
+        "categories": {
+            "description": "Categories of work or roles the tool is commonly used for.",
+            "type": "array",
+            "items": {
+                "oneOf": [
+                    {"$ref": "#/$defs/category-graphic-design"},
+                    {"$ref": "#/$defs/category-technical-writing"},
+                    {"$ref": "#/$defs/category-public-speaking"}
+                ]
+            }
         },
         "name": {
             "description": "Name of the tool.",
@@ -27,11 +155,10 @@
                     "description": "'When I' situation where a tool is needed to do a job.",
                     "type": "array",
                     "items": {
-                        "type": "string",
-                        "enum": [
-                            "manage documentation for an existing project",
-                            "setup documentation for a new project",
-                            "want imagery to support a project"
+                        "oneOf": [
+                            {"$ref": "#/$defs/situation-manage-docs"},
+                            {"$ref": "#/$defs/situation-need-imagery"},
+                            {"$ref": "#/$defs/situation-need-instructions"}
                         ]
                     }
                 },
@@ -39,13 +166,16 @@
                     "description": "'I want to' motivations for selecting a tool.",
                     "type": "array",
                     "items": {
-                        "type": "string",
-                        "enum": [
-                            "make information clearer",
-                            "create a visual identity",
-                            "make information more engaging",
-                            "help visualize an idea",
-                            "organize knowledge"
+                        "oneOf": [
+                            {"$ref": "#/$defs/motivation-make-information-clearer"},
+                            {"$ref": "#/$defs/motivation-create-visual-identity"},
+                            {"$ref": "#/$defs/motivation-make-information-engaging"},
+                            {"$ref": "#/$defs/motivation-visualize-idea"},
+                            {"$ref": "#/$defs/motivation-organize-knowledge"},
+                            {"$ref": "#/$defs/motivation-clear-communication"},
+                            {"$ref": "#/$defs/motivation-internal-collaboration"},
+                            {"$ref": "#/$defs/motivation-external-contributors"},
+                            {"$ref": "#/$defs/motivation-reuse-spec-and-inline-documentation"}
                         ]
                     }
                 },
@@ -53,21 +183,20 @@
                     "description": "'so I can' expected results and outputs from the tool.",
                     "type": "array",
                     "items": {
-                        "type": "string",
-                        "enum": [
-                            "create infographics",
-                            "create graphic design assets",
-                            "create a logo",
-                            "create an avatar",
-                            "create a user interface mockup",
-                            "create a tutorial",
-                            "create a conceptual guide",
-                            "create an API reference"
+                        "oneOf": [
+                            {"$ref": "#/$defs/outcome-create-infographics"},
+                            {"$ref": "#/$defs/outcome-create-graphics"},
+                            {"$ref": "#/$defs/outcome-create-logo"},
+                            {"$ref": "#/$defs/outcome-create-avatar"},
+                            {"$ref": "#/$defs/outcome-create-mockup"},
+                            {"$ref": "#/$defs/outcome-create-tutorial"},
+                            {"$ref": "#/$defs/outcome-create-guide"},
+                            {"$ref": "#/$defs/outcome-create-api-ref"}
                         ]
                     }
                 }
             },
-            "required": ["situations"]
+            "required": ["situations", "motivations", "outcomes"]
         },
         "evaluation": {
             "description": "Evaluation criteria for the tool.",
@@ -94,8 +223,15 @@
                     "type": "string"
                 }
             }
+        },
+        "teams": {
+            "description": "DevRel teams or organizations that use the tool for their workflows.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         }
     },
-    "required": ["url", "name", "jobs", "evaluation"],
+    "required": ["url", "name", "jobs", "evaluation", "categories", "description"],
     "additionalProperties": false
 }
