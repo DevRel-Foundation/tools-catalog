@@ -77,7 +77,7 @@ args.data.forEach(item => {
         report.invalid++;
         report.review.push(item);
         log(validate.errors);
-        console.warn(`${item} => ${JSON.stringify(validate.errors)}`);
+        console.warn(`${item} =>\n${JSON.stringify(validate.errors, null, 2)}`);
     }
 });
 
