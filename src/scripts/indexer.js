@@ -1,5 +1,6 @@
 
-// bin/tc-index --data data/*.json --labels docs/labels --schema src/schemas/tools.json 
+// bin/tc-index --data data/*.json --labels docs/label --schema src/schemas/tools.json 
+// bin/tc-index --data data/*.json --categories docs/category --schema src/schemas/tools.json 
 
 const fs = require('fs');
 const path = require('path');
@@ -78,7 +79,8 @@ function main() {
                     }
                     report.labels[label].push({
                         name: asset.name || filename,
-                        file: path.resolve(item)
+                        file: path.resolve(item),
+                        filename: filename
                     });
                 })
             }
@@ -102,22 +104,23 @@ function main() {
         labels.forEach(label => {
             const filename = label.toLowerCase().replace(/\s+/g, '-') + '.md';
             const outputPath = path.join(args.labels, filename);
-            log("...generating:" + outputPath);
+            log("...checking:" + outputPath);
 
             if (label in report.labels) {
-                console.log(report.labels[label]);
-
-                let content = 'DO NOT EDIT. This file was automatically generated. See [CONTRIBUTING](../../CONTRIBUTING.md) for details on making changes.';
+                let content = '\nDO NOT EDIT. This file was automatically generated.\nSee [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.';
                 content += `\n\n`;
                 content += `# ${label.toUpperCase()}\n\n` 
 
-                content += report.labels[label].map(tool => `- [${tool.name}](${path.relative(args.labels, tool.file)})`).join('\n') + '\n';
+                content += report.labels[label].map(tool => `**${tool.name}** | ${report.files[tool.filename].asset.url}\n${report.files[tool.filename].asset.description} ([Data](${path.relative(args.labels, tool.file)}))`).join('\n\n') + '\n';
                 
                 fs.writeFileSync(outputPath, content, 'utf8');
+                log(`Generated: ${outputPath}`);
             }
         });
     }
 }
+
+
 
 
 main();
