@@ -7,10 +7,14 @@ const path = require('path');
 const args = require('yargs')
     .option('schema', {type: 'string', desc: 'schema to use for parsing (optional if defined in data file)'})
     .option('data', {type: 'array', desc: 'data files to index'})
-    .option('labels', {type: 'string', desc: 'output directory for generated labels index files'})
+    .option('label', {type: 'string', desc: 'output directory for generated labels index files'})
+    .option('category', {type: 'string', desc: 'output directory for generated job category index files'})
     .option('verbose', {type: 'boolean'})
     .demand(['data', 'schema'])
     .argv;
+
+// Message to insert into generated markdown files
+const contributing_message = '\nDO NOT EDIT. This file was automatically generated.\nSee [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.\n\n';
 
 // Function to log messages to stdout if verbose mode is enabled
 function log(msg) {
@@ -34,10 +38,15 @@ function get_labels(schema) {
     
     return labels;
 }
-    
 
-// Main function to process and index data files
-function main() {
+function to_title_case(str) {
+    return str.replace(/\w\S*/g, function(txt) {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}
+
+function get_schema() {
+    // Setup validation if required
     const Ajv = require("ajv/dist/2020");
     const addFormats = require("ajv-formats");
     const ajv = new Ajv({ strict: false });
@@ -47,80 +56,144 @@ function main() {
     let defaultSchema = null;
     if (args.schema) {
         defaultSchema = JSON.parse(fs.readFileSync(args.schema, 'utf8'));
-        log(`Using command line schema: ${args.schema}`);
     }
 
+    log(`Using schema: ${args.schema}`);
+    return defaultSchema;
+}
 
-    let report = {
-        processed: 0,
-        errors: 0,
-        files: {},
-        labels: {}
+
+
+function main() {
+    // index the data files
+    let index = {
+        processed: {},
+        errors: {},
+        categories: {},
+        labels: {},
+        descriptions: {},
     };
 
-    // Iterate over each data file to process it
-    args.data.forEach(item => {
-        log(`Processing: ${item}`);
-        
-        try {
-            const asset = JSON.parse(fs.readFileSync(item, 'utf8'));
+    let schema = get_schema();
+    Object.keys(schema.$defs).forEach(key => {
+        index.descriptions[schema.$defs[key].const] = schema.$defs[key].description || '';
+    });
 
-            // Add to index
-            const filename = path.basename(item, '.json');
-            report.files[filename] = {
+    args.data.forEach(data => {
+        log(`...processing ${data}`);
+
+        try {
+            const asset = JSON.parse(fs.readFileSync(data, 'utf8'));
+            const filename = path.basename(data, '.json');
+
+            index.processed[filename] = {
                 asset: asset,
                 name: asset.name || filename,
             };
 
-            if (asset.labels) { 
+            // Create an index by label
+            if (args.label && asset.labels) {
                 asset.labels.forEach(label => {
-                    if (!report.labels[label]) {
-                        report.labels[label] = [];
+                    if (!index.labels[label]) {
+                        index.labels[label] = [];
                     }
-                    report.labels[label].push({
+
+                    let entry = {
+                        filename: filename,
                         name: asset.name || filename,
-                        file: path.resolve(item),
-                        filename: filename
-                    });
-                })
+                        url: asset.url || null,
+                        description: asset.description || '',
+                        file: path.relative(args.label, path.resolve(data))
+                    }
+
+                    index.labels[label].push(entry);
+                });
             }
 
-            report.processed++;
-            
+            // Create an index by job category and outcome
+            if (args.category && asset.jobs.categories) {
+
+                asset.jobs.categories.forEach(category => {
+                    if (!index.categories[category]) {
+                        index.categories[category] = {};
+                    }
+
+                    asset.jobs.outcomes.forEach(outcome => {
+                        if (!index.categories[category][outcome]) {
+                            index.categories[category][outcome] = [];
+                        }
+
+                        let entry = {
+                            filename: filename,
+                            name: asset.name || filename,
+                            url: asset.url || null,
+                            description: asset.description || '',
+                            file: path.relative(args.category, path.resolve(data))
+                        }
+
+                        index.categories[category][outcome].push(entry);
+                    });
+                });
+            }
+
         } catch (error) {
-            console.error(`Error processing ${item}: ${error.message}`);
-            report.errors++;
+            console.error(`Error processing ${data}: ${error.message}`);
+            index.errors[data] = {};
         }
     });
-    console.log(`Finished! Processed ${report.processed} files with ${report.errors} errors.`);
 
-    if (args.labels) {
+    console.log(`Processed ${Object.keys(index.processed).length} data files and skipped ${Object.keys(index.errors).length} with errors.`);
+
+    // Write labels out to markdown files when given as a parameter
+    if (args.label) {
         // Ensure output directory exists
-        if (!fs.existsSync(args.labels)) {
-            fs.mkdirSync(args.labels, { recursive: true });
+        if (!fs.existsSync(args.label)) {
+            fs.mkdirSync(args.label, { recursive: true });
         }
 
-        let labels = get_labels(defaultSchema);
-        labels.forEach(label => {
+        Object.keys(index.labels).forEach(label => {
             const filename = label.toLowerCase().replace(/\s+/g, '-') + '.md';
-            const outputPath = path.join(args.labels, filename);
-            log("...checking:" + outputPath);
+            const outputPath = path.join(args.label, filename);
 
-            if (label in report.labels) {
-                let content = '\nDO NOT EDIT. This file was automatically generated.\nSee [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.';
-                content += `\n\n`;
-                content += `# ${label.toUpperCase()}\n\n` 
+            let content = contributing_message;
+            content += `# ${label.toUpperCase()}\n\n`; 
+            content += index.labels[label].map(tool => `**${tool.name}** | ${tool.url}\n${tool.description} ([Source Data](${tool.file}))`).join('\n\n') + '\n';
 
-                content += report.labels[label].map(tool => `**${tool.name}** | ${report.files[tool.filename].asset.url}\n${report.files[tool.filename].asset.description} ([Data](${path.relative(args.labels, tool.file)}))`).join('\n\n') + '\n';
-                
-                fs.writeFileSync(outputPath, content, 'utf8');
-                log(`Generated: ${outputPath}`);
-            }
+            fs.writeFileSync(outputPath, content, 'utf8');
+            log(`Generated: ${outputPath}`);
+        });
+    }
+
+    if (args.category) {
+        // Ensure output directory exists
+        if (!fs.existsSync(args.category)) {
+            fs.mkdirSync(args.category, { recursive: true });
+        }
+
+        Object.keys(index.categories).forEach(category => {
+            const filename = category.toLowerCase().replace(/\s+/g, '-') + '.md';
+            const outputPath = path.join(args.category, filename);
+
+            let content = contributing_message;
+            content += `# ${category.toUpperCase()}\n\n`;
+
+            content += index.descriptions[category] ? `${index.descriptions[category]}\n\n` : '';
+
+            Object.keys(index.categories[category]).forEach(outcome => {
+                content += `## ${to_title_case(outcome)}\n\n`;
+
+                content += index.descriptions[outcome] ? `${index.descriptions[outcome]}\n\n` : '';
+
+                content += index.categories[category][outcome].map(tool => `**${tool.name}** | ${tool.url}\n${tool.description} ([Source Data](${tool.file}))`).join('\n\n') + '\n\n';
+            });
+
+            fs.writeFileSync(outputPath, content, 'utf8');
+            log(`Generated: ${outputPath}`);
         });
     }
 }
 
 
-
-
-main();
+if (args.label || args.category) {
+    main();
+}
