@@ -6,6 +6,13 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 
 An organization may have dedicated design resources, outsource to independent contractors on a per-project basis, or may need to be done by developer relations roles themselves.
 
+- [Create Graphic Design Assets](#create-graphic-design-assets)
+- [Create A Logo](#create-a-logo)
+- [Create An Avatar](#create-an-avatar)
+- [Create Infographics](#create-infographics)
+- [Create A User Interface Mockup](#create-a-user-interface-mockup)
+
+
 ## Create Graphic Design Assets
 
 Graphic design assets unite a brand to tell a story and may take many forms such as page dividers, social banners, in-page graphic elements, etc.

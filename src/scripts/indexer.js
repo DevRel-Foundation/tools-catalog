@@ -45,6 +45,10 @@ function to_title_case(str) {
     });
 }
 
+function to_internal_anchor(str) { 
+    return str.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
+}
+
 function get_schema() {
     // Setup validation if required
     const Ajv = require("ajv/dist/2020");
@@ -178,6 +182,12 @@ function main() {
             content += `# ${category.toUpperCase()}\n\n`;
 
             content += index.descriptions[category] ? `${index.descriptions[category]}\n\n` : '';
+
+            Object.keys(index.categories[category]).forEach(outcome => {
+                content += `- [${to_title_case(outcome)}](#${to_internal_anchor(outcome)})\n`;
+            })
+
+            content += '\n\n';
 
             Object.keys(index.categories[category]).forEach(outcome => {
                 content += `## ${to_title_case(outcome)}\n\n`;

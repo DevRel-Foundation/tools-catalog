@@ -6,6 +6,12 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 
 Any tools for technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.
 
+- [Create An Api Reference](#create-an-api-reference)
+- [Create A Tutorial](#create-a-tutorial)
+- [Create A Conceptual Guide](#create-a-conceptual-guide)
+- [Create A Website](#create-a-website)
+
+
 ## Create An Api Reference
 
 create an API reference
