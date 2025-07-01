@@ -36,6 +36,11 @@
             "type": "string",
             "const": "Web Development"
         },
+        "category-video-production": {
+            "description": "Tools used for the production of audio and video media. This includes video editing software, screen recording tools, and other tools used to create and manage video content.",
+            "type": "string",
+            "const": "Video Production"
+        },
         "situation-need-imagery": {
             "description": "The situation is one where imagery is needed to support a project.",
             "type": "string",
@@ -50,6 +55,11 @@
             "description": "The situation is one where a website needs to be created or managed, such as a Developer Portal or other marketing site using content management systems and website builders.",
             "type": "string",
             "const": "manage a public website"
+        },
+        "situation-host-production": {
+            "description": "The situation is one where a program or event needs to be hosted, such as a live stream, webinar, or virtual event.",
+            "type": "string",
+            "const": "host a video production"
         },
         "situation-need-instructions": {
             "description": "The situation is one where documentation needs to be written or edited to explain how to accomplish a goal.",
@@ -150,6 +160,11 @@
             "description": "create a static site or progressive web app",
             "type": "string",
             "const": "create a website"
+        },
+        "outcome-create-video-tutorial": {
+            "description": "create a video tutorial",
+            "type": "string",
+            "const": "create a video tutorial"
         }
     },
     "properties": {
@@ -176,7 +191,23 @@
                     "content management system",
                     "docs",
                     "hosting",
-                    "forums"
+                    "forums",
+                    "streaming",
+                    "video recording",
+                    "podcasting",
+                    "training",
+                    "virtual events",
+                    "user analytics",
+                    "social media",
+                    "developer portal",
+                    "api specification",
+                    "product feedback",
+                    "surveys",
+                    "slideshow",
+                    "microphones",
+                    "cameras",
+                    "webinar",
+                    "diagramming"
                 ]
             }
         },
@@ -194,7 +225,8 @@
                             {"$ref": "#/$defs/category-public-speaking"},
                             {"$ref": "#/$defs/category-user-experience"},
                             {"$ref": "#/$defs/category-developer-marketing"},
-                            {"$ref": "#/$defs/category-web-development"}
+                            {"$ref": "#/$defs/category-web-development"},
+                            {"$ref": "#/$defs/category-video-production"}
                         ]
                     }
                 },
@@ -206,7 +238,8 @@
                             {"$ref": "#/$defs/situation-manage-docs"},
                             {"$ref": "#/$defs/situation-need-imagery"},
                             {"$ref": "#/$defs/situation-need-instructions"},
-                            {"$ref": "#/$defs/situation-manage-website"}
+                            {"$ref": "#/$defs/situation-manage-website"},
+                            {"$ref": "#/$defs/situation-host-production"}
                         ]
                     }
                 },
@@ -241,7 +274,8 @@
                             {"$ref": "#/$defs/outcome-create-tutorial"},
                             {"$ref": "#/$defs/outcome-create-guide"},
                             {"$ref": "#/$defs/outcome-create-api-ref"},
-                            {"$ref": "#/$defs/outcome-create-website"}
+                            {"$ref": "#/$defs/outcome-create-website"},
+                            {"$ref": "#/$defs/outcome-create-video-tutorial"}
                         ]
                     }
                 }
@@ -306,6 +340,96 @@
                 }
             },
             "required": ["team", "decision"]
+        },
+        "learning": {
+            "description": "Learning resources for the tool.",
+            "type": "object",
+            "properties": {
+                "setup": {
+                    "description": "Resources for setting up or configuring a tool.",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "title": {
+                                "description": "Title of the learning resource.",
+                                "type": "string"
+                            },
+                            "type": {
+                                "description": "Type of setup resource, e.g., article, video, guide.",
+                                "type": "string",
+                                "enum": ["article", "video", "guide", "documentation"]
+                            },
+                            "publish-date": {
+                                "description": "Publication date of the setup resource.",
+                                "type": "string",
+                                "format": "date"
+                            },
+                            "url": {
+                                "description": "URL to the setup resource.",
+                                "type": "string",
+                                "format": "uri"
+                            }
+                        }
+                    }
+                },
+                "getting-started": {
+                    "description": "Resources for getting started with the tool for new users.",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "title": {
+                                "description": "Title of the learning resource.",
+                                "type": "string"
+                            },
+                            "type": {
+                                "description": "Type of setup resource, e.g., article, video, guide.",
+                                "type": "string",
+                                "enum": ["article", "video", "guide", "documentation"]
+                            },
+                            "publish-date": {
+                                "description": "Publication date of the setup resource.",
+                                "type": "string",
+                                "format": "date"
+                            },
+                            "url": {
+                                "description": "URL to the setup resource.",
+                                "type": "string",
+                                "format": "uri"
+                            }
+                        }
+                    }
+                },
+                "advanced": {
+                    "description": "Advanced resources for using the tool, tips & tricks, etc.",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "title": {
+                                "description": "Title of the learning resource.",
+                                "type": "string"
+                            },
+                            "type": {
+                                "description": "Type of setup resource, e.g., article, video, guide.",
+                                "type": "string",
+                                "enum": ["article", "video", "guide", "documentation"]
+                            },
+                            "publish-date": {
+                                "description": "Publication date of the setup resource.",
+                                "type": "string",
+                                "format": "date"
+                            },
+                            "url": {
+                                "description": "URL to the setup resource.",
+                                "type": "string",
+                                "format": "uri"
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "required": ["url", "name", "jobs", "evaluation", "description"],
