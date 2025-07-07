@@ -14,7 +14,8 @@ By defining tools in this way, we can establish tooling to validate, restructure
 
 - [Getting Started with the Devrel Tools Catalog](./docs/guides/getting-started.md)
 
-Find Tools:
+### Find Tools
+
 - [index](./docs/index/index.md)
 
 ## License
