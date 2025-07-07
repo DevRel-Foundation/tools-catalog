@@ -4,6 +4,16 @@ The **Tools Catalog** is a [DevRel Foundation](https://github.com/DevRel-Foundat
 
 * [Requirements and Use Cases](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/64)
 
+## DevRel Foundation Tools Catalog (DEVREL-TC)
+
+The DevRel Foundation Tools Catalog is an opinionated configuration framework for defining tools in a structured language (JSON) that adheres to an agreed upon standard schema. 
+
+By defining tools in this way, we can establish tooling to validate, restructure, transform views on how to evalate tools for use.
+
+### Learning the DEVREL-TC
+
+- [Getting Started with the Devrel Tools Catalog](./docs/guides/getting-started.md)
+
 ## License
 
 All material contributed to the DRF Resources and Asset Aggregation Work Group is under [CC-BY-4.0 Licensing](https://creativecommons.org/licenses/by/4.0/deed.en).

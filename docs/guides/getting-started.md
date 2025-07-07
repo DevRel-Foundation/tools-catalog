@@ -1,5 +1,5 @@
 
-# DevRel Foundation Tools Catalog System (DEVREL-TCS)
+# DevRel Foundation Tools Catalog (DEVREL-TC)
 
 ## INTRODUCTION
 
@@ -12,7 +12,7 @@ Typically, this includes assets such as:
 
 Tutorials related to the use of a specific tool are relevant, but other knowledge resources in general such as books, frameworks, processes, communities, content distribution channels, etc. are out of scope.
 
-The **DevRel Foundation Tools Catalog System** (DEVREL-TCS) is an opinionated-framework for defining tools that are included and to aid devrel teams in the evaluation and selection of tools.
+The **DevRel Foundation Tools Catalog** (DEVREL-TC) is an opinionated-framework for defining tools that are included and to aid devrel teams in the evaluation and selection of tools.
 
 ### Problem
 
@@ -53,7 +53,7 @@ To get value from a tool we must:
 - be able to figure out the problems a tool solves
 - be able to add criteria to discovery and evaluation
 
-The DEVREL-TCS is a schema and data structure instead of a simple list. In some cases we want a list for easy scanning, but in others for evaluation we may want a more data rich description to help with selection or how to learn. The tools to support the syntax allows us to accomplish this.
+The DEVREL-TC is a schema and data structure instead of a simple list. In some cases we want a list for easy scanning, but in others for evaluation we may want a more data rich description to help with selection or how to learn. The tools to support the syntax allows us to accomplish this.
 
 - JSON schema
 - validation tools
