@@ -1,0 +1,34 @@
+{
+    "name": "Hugo",
+    "description": "Hugo is a fast and flexible static site generator written in Go. It is designed for speed and simplicity, allowing users to create websites quickly without the need for a database. Hugo supports a wide range of content types and is known for its powerful templating system and extensive theming capabilities.",
+    "url": "https://gohugo.io",
+    "labels": ["static site generator"],
+    "jobs": {
+        "categories": [
+            "Technical Writing", 
+            "Developer Marketing",
+            "Web Development"
+        ],
+        "situations": [
+            "manage a public website"
+        ],
+        "motivations": [
+            "ensure clear communication",
+            "deliver marketing messages and positioning",
+            "internal collaboration"
+        ],
+        "outcomes": [
+            "create a website"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "n/a",
+            "pricing": "free open-source",
+            "compatibility": "framework",
+            "customizability": ["plugins", "components", "themes", "config"],
+            "notes": [
+            ]
+        }
+    ]
+}

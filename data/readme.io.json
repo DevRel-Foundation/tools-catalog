@@ -1,0 +1,37 @@
+{
+    "name": "Readme",
+    "description": "Readme is a platform for creating and managing API documentation, developer portals, and knowledge bases. It provides tools for interactive API documentation, versioning, and collaboration.",
+    "url": "https://readme.com", 
+    "labels": ["docs", "content management system"],
+    "jobs": {
+        "categories": [
+            "Technical Writing"
+        ],
+        "situations": [
+            "manage documentation for a project",
+            "provide instructions"
+        ],
+        "motivations": [
+            "organize knowledge",
+            "internal collaboration",
+            "external contributors"
+        ],
+        "outcomes": [
+            "create an API reference",
+            "create a tutorial",
+            "create a conceptual guide"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "dolby.io",
+            "decision": "past user",
+            "pricing": "commercial enterprise",
+            "support": "commercial support",
+            "customizability": ["config"],
+            "learnability": "easy",
+            "compatibility": "web-based",
+            "notes": []
+        }
+    ]
+}

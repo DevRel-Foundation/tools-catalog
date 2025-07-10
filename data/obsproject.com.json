@@ -1,0 +1,39 @@
+{
+    "name": "Open Broadcaster Software (OBS)",
+    "description": "OBS is a free and open-source software for video recording and live streaming. It allows users to capture real-time video and audio, mix them, and stream or record the output.",
+    "url": "https://obsproject.com",
+    "labels": ["streaming", "video recording", "webinar"],
+    "jobs": {
+        "categories": [
+            "Video Production"
+        ],
+        "situations": [
+            "host a video production"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "create a video tutorial"
+        ]
+    },
+    "evaluation": [
+    ],
+    "learning": {
+        "setup": [],
+        "getting-started": [],
+        "advanced": [
+            {
+                "type": "article",
+                "title": "Top Reasons for Updating to the New OBS 30.0 Release",
+                "publish-date": "2023-10-10",
+                "url": "https://dev.to/dolbyio/top-reasons-for-updating-to-the-new-obs-300-release-g6m"
+            },
+            {
+                "type": "article",
+                "title": "How-to Setup and Use Python with OBS on a Mac",
+                "publish-date": "2023-10-20",
+                "url": "https://dev.to/j12y/how-to-setup-and-use-python-with-obs-on-a-mac-1055"
+            }
+        ]
+    }
+}

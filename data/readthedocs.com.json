@@ -1,0 +1,32 @@
+{
+    "name": "ReadtheDocs",
+    "description": "Read the Docs is a documentation hosting platform that automates the building, versioning, and hosting of documentation. It supports various formats including Sphinx and MkDocs, and integrates with version control systems like Git.",
+    "url": "https://readthedocs.org",
+    "labels": ["docs", "content management system"],
+    "jobs": {
+        "categories": [
+            "Technical Writing"
+        ],
+        "situations": [
+            "manage documentation for a project",
+            "provide instructions"
+        ],
+        "motivations": [
+            "organize knowledge",
+            "internal collaboration"
+        ],
+        "outcomes": [
+            "create an API reference",
+            "create a tutorial",
+            "create a conceptual guide"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "n/a",
+            "pricing": "commercial enterprise",
+            "compatibility": "web-based",
+            "notes": []
+        }
+    ]
+}

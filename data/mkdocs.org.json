@@ -1,0 +1,32 @@
+{
+    "name": "MkDocs",
+    "description": "MkDocs is a static site generator that's geared towards project documentation. It uses Markdown for writing content and provides a simple way to create and maintain documentation sites.",
+    "url": "https://www.mkdocs.org",
+    "labels": ["docs", "content management system", "static site generator"],
+    "jobs": {
+        "categories": [
+            "Technical Writing"
+        ],
+        "situations": [
+            "manage documentation for a project",
+            "provide instructions"
+        ],
+        "motivations": [
+            "organize knowledge",
+            "internal collaboration",
+            "external contributors"
+        ],
+        "outcomes": [
+            "create an API reference",
+            "create a tutorial",
+            "create a conceptual guide"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "n/a",
+            "pricing": "free open-source",
+            "customizability": ["components", "config", "open-source"]
+        }
+    ]
+}

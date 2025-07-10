@@ -1,0 +1,33 @@
+{
+    "name": "Nextra",
+    "description": "Nextra is a static site generator for building documentation websites using React and Next.js. It supports Markdown and provides a simple way to create and maintain documentation sites with a focus on performance and ease of use.",
+    "url": "https://nextra.site",
+    "labels": ["static site generator"],
+    "jobs": {
+        "categories": [
+            "Technical Writing",
+            "Developer Marketing",
+            "Web Development"
+        ],
+        "situations": [
+            "manage a public website"
+        ],
+        "motivations": [
+            "ensure clear communication",
+            "deliver marketing messages and positioning",
+            "internal collaboration"
+        ],
+        "outcomes": [
+            "create a website"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "n/a",
+            "pricing": "free open-source",
+            "compatibility": "framework",
+            "customizability": ["plugins", "components", "themes", "config"],
+            "notes": []
+        }
+    ]
+}
