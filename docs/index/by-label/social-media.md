@@ -7,6 +7,9 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 **Awario** | https://awario.com/
 Awario is a social media monitoring tool that helps you track mentions of your brand, competitors, and industry keywords across social media platforms and the web. Includes X (Twitter), Facebook, Instagram, Reddit, YouTube, Vimeo, Forums, Blogs, etc. ([Source Data](../../../data/awario.com.json))
 
+**Brand24** | https://brand24.com/
+Brand24 is a social media monitoring tool that helps you track mentions of your brand, competitors, and industry keywords across social media platforms and the web. ([Source Data](../../../data/brand24.com.json))
+
 **Buffer** | https://buffer.com/
 Buffer is a social media management platform for scheduling posts and managing multiple social media accounts. Free plan allows unlimited posts from 10 queued at a time across three channels from the supported list including Bluesky, Google Business, LinkedIn, Pinterest, TikTok, YouTube, Facebook, Instagram, Mastodon, Threads, X (Twitter). ([Source Data](../../../data/buffer.com.json))
 
