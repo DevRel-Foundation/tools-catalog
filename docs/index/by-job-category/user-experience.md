@@ -4,7 +4,7 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 
 # USER EXPERIENCE
 
-Any tools for defining or understanding user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.
+Tools that can help support defining or understanding user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.
 
 - [Create A User Interface Mockup](#create-a-user-interface-mockup)
 

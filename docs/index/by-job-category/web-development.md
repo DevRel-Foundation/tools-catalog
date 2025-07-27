@@ -4,14 +4,14 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 
 # WEB DEVELOPMENT
 
-Any tools for web development. This includes static site generators, content management systems, and other tools used to create and manage websites.
+Tools used for web development. This includes static site generators, content management systems, and other tools used to create and manage websites.
 
 - [Create A Website](#create-a-website)
 
 
 ## Create A Website
 
-create a static site or progressive web app
+Create a website to explain what the product or service offerred is. This includes static websites, progressive web-apps, or output from a CMS.
 
 **Gatsby** | https://www.gatsbyjs.com
 Gatsby is a React-based open-source framework for building fast, modern websites and applications. It uses GraphQL to pull in data from various sources and generate static pages for optimal web performance. Gatsby is known for its speed, scalability, and ability to integrate with various CMSs and APIs. ([Source Data](../../../data/gatsbyjs.com.json))

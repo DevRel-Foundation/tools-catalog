@@ -4,7 +4,7 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 
 # TECHNICAL WRITING
 
-Any tools for technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.
+Tools that support teams with technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.
 
 - [Create An Api Reference](#create-an-api-reference)
 - [Create A Tutorial](#create-a-tutorial)
@@ -14,7 +14,7 @@ Any tools for technical writing. This is inclusive of documentation and blogging
 
 ## Create An Api Reference
 
-create an API reference
+Create an API reference that explains the input parameters and output responses of a developer-facing API. This can be done with typical documentation tools but may also be generated from the specificiation for a dynamic or interactive experience.
 
 **Docusaurus** | https://docusaurus.io
 Docusaurus is an open-source static site generator designed for building documentation websites. It is built by Facebook and supports Markdown, versioning, and localization. ([Source Data](../../../data/docusaurus.io.json))
@@ -39,7 +39,7 @@ Starlight is a static site generator designed for building documentation website
 
 ## Create A Tutorial
 
-create a tutorial
+Created a tutorial that helps explain how to accomplish a goal or task, such as how-to guides with step-by-step instructions. May be a blog, documentation page, workshop, or video.
 
 **Docusaurus** | https://docusaurus.io
 Docusaurus is an open-source static site generator designed for building documentation websites. It is built by Facebook and supports Markdown, versioning, and localization. ([Source Data](../../../data/docusaurus.io.json))
@@ -64,7 +64,7 @@ Starlight is a static site generator designed for building documentation website
 
 ## Create A Conceptual Guide
 
-create a conceptual guide
+Create a conceptual guide that explains from first principles how to accomplish tasks within a domain. This typically includes a fair amount of background that is explained progressively for greater understanding compared to tutorials or reference documentation that may more directly intend to address a question.
 
 **Docusaurus** | https://docusaurus.io
 Docusaurus is an open-source static site generator designed for building documentation websites. It is built by Facebook and supports Markdown, versioning, and localization. ([Source Data](../../../data/docusaurus.io.json))
@@ -89,7 +89,7 @@ Starlight is a static site generator designed for building documentation website
 
 ## Create A Website
 
-create a static site or progressive web app
+Create a website to explain what the product or service offerred is. This includes static websites, progressive web-apps, or output from a CMS.
 
 **Gatsby** | https://www.gatsbyjs.com
 Gatsby is a React-based open-source framework for building fast, modern websites and applications. It uses GraphQL to pull in data from various sources and generate static pages for optimal web performance. Gatsby is known for its speed, scalability, and ability to integrate with various CMSs and APIs. ([Source Data](../../../data/gatsbyjs.com.json))

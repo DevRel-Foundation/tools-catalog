@@ -1,0 +1,29 @@
+{
+    "name": "Brand24",
+    "url": "https://brand24.com/",
+    "labels": ["social media"],
+    "description": "Brand24 is a social media monitoring tool that helps you track mentions of your brand, competitors, and industry keywords across social media platforms and the web.",
+    "jobs": {
+        "categories": ["Social Media"],
+        "situations": [
+            "want to manage social media accounts"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "social listening alerts"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial self-service",
+            "learnability": "easy",
+            "compatibility": "web-based",
+            "notes": [
+                "Pricing tiered based on number of keywords to number of mentions."
+            ]
+        }
+    ]
+}

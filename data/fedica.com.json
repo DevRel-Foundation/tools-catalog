@@ -1,0 +1,30 @@
+{
+    "name": "Fedica",
+    "url": "https://www.fedica.com",
+    "labels": ["social media"],
+    "description": "Fedica is a platform for posting across social media platforms. The free plan allows for unlimited posts across nine platforms including Facebook, Tiktok, X (Twitter), YouTube, LinkedIn, Pinterest, Threads, Bluesky, and Mastodon. Paid plans provide tooling for analytics and performance tracking.",
+    "jobs": {
+        "categories": ["Social Media"],
+        "situations": [
+              "want to manage social media accounts"
+        ], 
+        "motivations": [
+        ],
+        "outcomes": [
+            "schedule social media posts",
+            "social listening alerts"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "limited free",
+            "learnability": "easy",
+            "compatibility": "web-based",
+            "notes": [
+                "Listening and analytics are offered on paid plans. The free plan allows unlimited posts and scheduling across platforms so may be good for individuals working on personal branding such as advocates."
+            ]
+        }
+    ]
+}

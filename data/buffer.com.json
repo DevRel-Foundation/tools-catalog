@@ -1,0 +1,30 @@
+{
+    "name": "Buffer",
+    "url": "https://buffer.com/",
+    "labels": ["social media"],
+    "description": "Buffer is a social media management platform for scheduling posts and managing multiple social media accounts. Free plan allows unlimited posts from 10 queued at a time across three channels from the supported list including Bluesky, Google Business, LinkedIn, Pinterest, TikTok, YouTube, Facebook, Instagram, Mastodon, Threads, X (Twitter).",
+    "jobs": {
+        "categories": ["Social Media"],
+        "situations": [
+              "want to manage social media accounts"
+        ], 
+        "motivations": [
+        ],
+        "outcomes": [
+            "schedule social media posts",
+            "social listening alerts"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "limited free",
+            "learnability": "easy",
+            "compatibility": "web-based",
+            "notes": [
+                "Pricing is based by number of channels for essentials and teams plans. Free plan may be good if just focusing on a few channels for individual advocates."
+            ]
+        }
+    ]
+}
