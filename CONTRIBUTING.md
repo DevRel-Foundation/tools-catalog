@@ -24,7 +24,7 @@ Contribution can take several forms.
 
 **Feedback**. Have a suggestion, let us know how to improve.
 
-**References**. If you know of a resource (tool, software, item) we will include it in the collection. This can be provided by creating an issue, sending an email to the working group owners, or best case is to fork the repos and submit a PR for review.
+**References**. If you know of a resource (tool, software, item) we will include it in the collection. This can be provided by creating an issue, sending an email to the working group owners, or most helpful would be to fork the repos and submit a PR for review.
 
 **Schema and Tools**. The schema and tools provide value to all. If you have suggestions on how to improve the schema, add additional tooling, or want to contribute an integration to a visualization or other system of record those would be welcome.
 
@@ -61,11 +61,11 @@ This folder contains shell scripts to execute tool commands. The logic of the co
 
 ### `/data` 
 
-This folder contains the JSON configuration data that defines tools and use cases.
+This folder contains the JSON configuration data that defines tools and use cases. The convention is that filenames are identical to the URI that is used by the product website along with the filtype extension. This is to avoid naming collisions but as the collection grows may be revisited.
 
 ### `/docs`
 
-This folder contains documentation about the tools catalog.
+This folder contains documentation about the tools catalog. There are guides for how to use and contribute but also indexes that are generated in order to help for exploration.
 
 ### `/src`
 
@@ -73,11 +73,11 @@ This folder contains the source code and schemas.
 
 ## Review Process
 
-Our review process is informal so we'll add guidelines here as we learn. We maintain the right to refuse accepting any content deemed inappropriate by a two-thirds working group manager vote.
+Our review process is informal so we'll add guidelines here as we learn. We maintain the right to refuse accepting any content deemed inappropriate. In case of dispute, a two-thirds working group manager vote will be taken. If still unresolved, an appeal to the steering committee can be made for a final decision.
 
 ### 1. Promotional Materials
 
-We want content that adds educational value to our audience. If it is deemed promotional in nature and requires purchase of a product or service then a submission may not be accepted.
+We want content that adds educational value to our audience. If it is deemed promotional in nature and requires purchase of a product or service rather than aimed at helping the community then a submission may not be accepted.
 
 ### 2. Paywalled Materials
 
