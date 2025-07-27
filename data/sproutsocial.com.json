@@ -1,0 +1,30 @@
+{
+    "name": "Sprout Social",
+    "url": "https://sproutsocial.com/",
+    "labels": ["social media"],
+    "description": "Sprout Social is a social media management platform that provides tools for scheduling, publishing, analytics, and engagement across social media channels. Supports many integrations and multiple accounts across channels.",
+    "jobs": {
+        "categories": ["Social Media"],
+        "situations": [
+            "want to manage social media accounts"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "schedule social media posts",
+            "social listening alerts"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "limited free",
+            "learnability": "easy",
+            "compatibility": "web-based",
+            "notes": [
+                "Seems more geared toward enterprises and large marketing organizations rather than individual advocates or small devrel teams."
+            ]
+        }
+    ]
+}

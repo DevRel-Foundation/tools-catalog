@@ -12,27 +12,27 @@
             "const": "Graphic Design"
         },
         "category-technical-writing": {
-            "description": "Any tools for technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.",
+            "description": "Tools that support teams with technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.",
             "type": "string",
             "const": "Technical Writing"
         },
         "category-public-speaking": {
-            "description": "Any tools for public speakers. This is inclusive of presentation software, slide decks, and other devices used to create and deliver presentations.",
+            "description": "Tools that support public speaking. This is inclusive of presentation software, slide decks, and other devices used to create and deliver presentations.",
             "type": "string",
             "const": "Public Speaking"
         },
         "category-user-experience": {
-            "description": "Any tools for defining or understanding user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.",
+            "description": "Tools that can help support defining or understanding user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.",
             "type": "string",
             "const": "User Experience"
         },
         "category-developer-marketing": {
-            "description": "Any tool or product for developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).",
+            "description": "Tools that can help support developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).",
             "type": "string",
             "const": "Developer Marketing"
         },
         "category-web-development": {
-            "description": "Any tools for web development. This includes static site generators, content management systems, and other tools used to create and manage websites.",
+            "description": "Tools used for web development. This includes static site generators, content management systems, and other tools used to create and manage websites.",
             "type": "string",
             "const": "Web Development"
         },
@@ -40,6 +40,16 @@
             "description": "Tools used for the production of audio and video media. This includes video editing software, screen recording tools, and other tools used to create and manage video content.",
             "type": "string",
             "const": "Video Production"
+        },
+        "category-social-media": {
+            "description": "Tools that are used for managing online communities through social media including scheduling posts, managing accounts, analyzing performance, etc.",
+            "type": "string",
+            "const": "Social Media"
+        },
+        "category-community-management": {
+            "description": "Tools used for managing online communities, forums, and discussion boards.",
+            "type": "string",
+            "const": "Community Management"
         },
         "situation-need-imagery": {
             "description": "The situation is one where imagery is needed to support a project.",
@@ -65,6 +75,11 @@
             "description": "The situation is one where documentation needs to be written or edited to explain how to accomplish a goal.",
             "type": "string",
             "const": "provide instructions"
+        },
+        "situation-manage-social-media": {
+            "description": "The situation is one where social media accounts need to be managed, such as scheduling posts, engaging with the audience, and analyzing performance.",
+            "type": "string",
+            "const": "want to manage social media accounts"
         },
         "motivation-make-information-clearer": {
             "description": "A picture to complement other information can help make relationships and structure much more clear.",
@@ -127,7 +142,7 @@
             "const": "create graphic design assets"
         },
         "outcome-create-logo": {
-            "description": "The company logo and variations of it are central to the design system of a company. There are tools that help specifically to design and edit logos.",
+            "description": "The company logo and variations of it are central to the design system of a product. There are tools that help specifically to design and edit logos.",
             "type": "string",
             "const": "create a logo"
         },
@@ -142,29 +157,39 @@
             "const": "create a user interface mockup"
         },
         "outcome-create-tutorial": {
-            "description": "create a tutorial",
+            "description": "Created a tutorial that helps explain how to accomplish a goal or task, such as how-to guides with step-by-step instructions. May be a blog, documentation page, workshop, or video.",
             "type": "string",
             "const": "create a tutorial"
         },
         "outcome-create-guide": {
-            "description": "create a conceptual guide",
+            "description": "Create a conceptual guide that explains from first principles how to accomplish tasks within a domain. This typically includes a fair amount of background that is explained progressively for greater understanding compared to tutorials or reference documentation that may more directly intend to address a question.",
             "type": "string",
             "const": "create a conceptual guide"
         },
         "outcome-create-api-ref": {
-            "description": "create an API reference",
+            "description": "Create an API reference that explains the input parameters and output responses of a developer-facing API. This can be done with typical documentation tools but may also be generated from the specificiation for a dynamic or interactive experience.",
             "type": "string",
             "const": "create an API reference"
         },
         "outcome-create-website": {
-            "description": "create a static site or progressive web app",
+            "description": "Create a website to explain what the product or service offerred is. This includes static websites, progressive web-apps, or output from a CMS.",
             "type": "string",
             "const": "create a website"
         },
         "outcome-create-video-tutorial": {
-            "description": "create a video tutorial",
+            "description": "Similar to tutorials or guides in written form, a video tutorial is a multimedia presentation that requires specific tools to create, edit, and publish.",
             "type": "string",
             "const": "create a video tutorial"
+        },
+        "outcome-schedule-social-posts": {
+            "description": "When the desired outcome is to schedule posts to publish in advance across multiple social channels.",
+            "type": "string",
+            "const": "schedule social media posts"
+        },
+        "outcome-social-listening-alerts": {
+            "description": "When the desired outcome is to set up alerts for brand mentions across multiple channels.",
+            "type": "string",
+            "const": "social listening alerts"
         }
     },
     "properties": {
@@ -226,7 +251,8 @@
                             {"$ref": "#/$defs/category-user-experience"},
                             {"$ref": "#/$defs/category-developer-marketing"},
                             {"$ref": "#/$defs/category-web-development"},
-                            {"$ref": "#/$defs/category-video-production"}
+                            {"$ref": "#/$defs/category-video-production"},
+                            {"$ref": "#/$defs/category-social-media"}
                         ]
                     }
                 },
@@ -239,7 +265,8 @@
                             {"$ref": "#/$defs/situation-need-imagery"},
                             {"$ref": "#/$defs/situation-need-instructions"},
                             {"$ref": "#/$defs/situation-manage-website"},
-                            {"$ref": "#/$defs/situation-host-production"}
+                            {"$ref": "#/$defs/situation-host-production"},
+                            {"$ref": "#/$defs/situation-manage-social-media"}
                         ]
                     }
                 },
@@ -275,7 +302,9 @@
                             {"$ref": "#/$defs/outcome-create-guide"},
                             {"$ref": "#/$defs/outcome-create-api-ref"},
                             {"$ref": "#/$defs/outcome-create-website"},
-                            {"$ref": "#/$defs/outcome-create-video-tutorial"}
+                            {"$ref": "#/$defs/outcome-create-video-tutorial"},
+                            {"$ref": "#/$defs/outcome-schedule-social-posts"},
+                            {"$ref": "#/$defs/outcome-social-listening-alerts"}
                         ]
                     }
                 }

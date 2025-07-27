@@ -4,14 +4,14 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 
 # DEVELOPER MARKETING
 
-Any tool or product for developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).
+Tools that can help support developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).
 
 - [Create A Website](#create-a-website)
 
 
 ## Create A Website
 
-create a static site or progressive web app
+Create a website to explain what the product or service offerred is. This includes static websites, progressive web-apps, or output from a CMS.
 
 **Gatsby** | https://www.gatsbyjs.com
 Gatsby is a React-based open-source framework for building fast, modern websites and applications. It uses GraphQL to pull in data from various sources and generate static pages for optimal web performance. Gatsby is known for its speed, scalability, and ability to integrate with various CMSs and APIs. ([Source Data](../../../data/gatsbyjs.com.json))

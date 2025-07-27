@@ -10,13 +10,30 @@ The DevRel Foundation Tools Catalog is an opinionated configuration framework fo
 
 By defining tools in this way, we can establish tooling to validate, restructure, transform views on how to evalate tools for use.
 
+### Explore the Tools Catalog
+
+Tools are indexed by dimensions such as jobs to be done and category.
+
+- [Find Tools](./docs/index/index.md)
+
 ### Learning the DEVREL-TC
 
 - [Getting Started with the Devrel Tools Catalog](./docs/guides/getting-started.md)
 
-### Find Tools
+## Runbook
 
-- [index](./docs/index/index.md)
+### Validating the Catalog
+
+```
+./bin/tc-validate --data data/*.json --schema src/schemas/tools.json
+```
+
+### Generating Indexes
+
+```
+./bin/tc-index --data data/*.json --schema src/schemas/tools.json --category docs/index/by-job-category --label docs/index/by-label
+```
+
 
 ## License
 
@@ -31,4 +48,4 @@ This project repository is maintained with support of the [Resource and Asset Ag
 * [Contributing](./CONTRIBUTING.md)
 * [Report Issues](https://github.com/DevRel-Foundation/wg-resource-aggregation/issues)
 * [Questions & Feedback](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/categories/tools-catalog)
-* [Project Roadmap](https://github.com/orgs/DevRel-Foundation/projects/12)
+* [Project Roadmap](https://github.com/orgs/DevRel-Foundation/projects/14)

@@ -22,7 +22,7 @@ Canva is a graphic design platform that allows users to create social media grap
 
 ## Create A Logo
 
-The company logo and variations of it are central to the design system of a company. There are tools that help specifically to design and edit logos.
+The company logo and variations of it are central to the design system of a product. There are tools that help specifically to design and edit logos.
 
 **Canva** | https://www.canva.com
 Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements. ([Source Data](../../../data/canva.com.json))

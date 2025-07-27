@@ -1,0 +1,30 @@
+{
+    "name": "Hootsuite",
+    "url": "https://www.hootsuite.com",
+    "labels": ["social media"],
+    "description": "Hootsuite is a social media management platform that supports post scheduling, direct messages, and social listening across social media channels. The entry level plan provides tools for analytics and performance across eight channels with a tiered pricing by volume for posting to Instagram, Facebook, Tiktok, X (Twitter), YouTube, LinkedIn, Pinterest, Threads.",
+    "jobs": {
+        "categories": ["Social Media"],
+        "situations": [
+              "want to manage social media accounts"
+        ], 
+        "motivations": [
+        ],
+        "outcomes": [
+            "schedule social media posts",
+            "social listening alerts"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial self-service",
+            "learnability": "easy",
+            "compatibility": "web-based",
+            "notes": [
+                "Priced at $99/mo for entry level tier for 5 accounts and unlimited post scheduling. This seems more appropriate for brand channels for a devrel team."
+            ]
+        }
+    ]
+}
