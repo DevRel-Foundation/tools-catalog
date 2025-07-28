@@ -1,0 +1,27 @@
+{
+    "name": "AnswerHub",
+    "url": "https://ignitetech.ai/softwarelibrary/answerhub",
+    "description": "AnswerHub, acquired by IgniteTech, is a community platform that provides tools for building and managing online communities. It offers features for discussion forums, Q&A knowledge management, and community engagement.",
+    "labels": ["community"],
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial enterprise",
+            "compatibility": "web-based",
+            "notes": [
+                "Includes gamification features, q&a forums, and consulting services for customization."
+            ]
+        }
+    ]
+}

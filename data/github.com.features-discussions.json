@@ -1,0 +1,27 @@
+{
+    "name": "GitHub Discussions",
+    "url": "https://github.com/features/discussions",
+    "description": "GitHub Discussions is a feature of GitHub that allows you to create discussion forums for individual repositories or a GitHub organization overall. It provides tools for managing discussions, engaging with your community, and building a knowledge base around your projects.",
+    "labels": ["community"],
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "limited free",
+            "compatibility": "web-based",
+            "notes": [
+                "Used for discussions with the DevRel Foundation community and working group projects."
+            ]
+        }
+    ]
+}

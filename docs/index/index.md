@@ -1,5 +1,6 @@
 
 By Label:
+- [community](./by-label/community.md)
 - [content management system](./by-label/content-management-system.md)
 - [diagramming](./by-label/diagramming.md)
 - [docs](./by-label/docs.md)
@@ -10,6 +11,7 @@ By Label:
 - [webinar](./by-label/webinar.md)
 
 By Job Category:
+- [community management](./by-job-category/community-management.md)
 - [developer marketing](./by-job-category/developer-marketing.md)
 - [graphic design](./by-job-category/graphic-design.md)
 - [social media](./by-job-category/social-media.md)

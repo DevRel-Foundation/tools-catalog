@@ -1,0 +1,28 @@
+{
+    "name": "StackOverflow",
+    "url": "https://stackoverflow.com/",
+    "labels": ["community"],
+    "description": "StackOverflow is a question-and-answer platform for developers and programmers. It allows users to ask questions, provide answers, and engage in discussions about programming topics. It is widely used for community support and knowledge sharing in the software development industry.",
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "limited free",
+            "compatibility": "web-based",
+            "notes": [
+                "StackOverflow can be used with labels for community support and knowledge sharing. Many in your community may chose to use StackOverflow anyway when encountering problems. Typically, StackOverflow discourages their platform from being the primary destination for your community managemnt."
+            ]
+        }
+    ]
+}

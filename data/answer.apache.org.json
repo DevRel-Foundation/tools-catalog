@@ -1,0 +1,28 @@
+{
+    "name": "Apache Answer",
+    "url": "https://answer.apache.org/",
+    "description": "Apache Answer is an open-source question-and-answer platform that helps you build a community around your brand or product. It provides tools for creating forums with gamification and integrations.",
+    "labels": ["community"],
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "free open-source",
+            "compatibility": "web-based",
+            "customizability": ["open-source", "plugins"],
+            "notes": [
+                "Apache Answer is open-source for providing Q&A support center discussion forums."
+            ]
+        }
+    ]
+}

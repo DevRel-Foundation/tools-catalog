@@ -1,0 +1,29 @@
+{
+    "name": "Discord",
+    "url": "https://discord.com",
+    "labels": ["community"],
+    "description": "Discord is a communication platform designed for creating communities. It provides tools for voice, video, and text communication, making it suitable for community building, gaming, and other collaborative activities. Discord is widely used for community management and engagement including support.",
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "limited free",
+            "compatibility": "desktop application",
+            "customizability": ["plugins"],
+            "notes": [
+                "Discord has a wide range of extensions and bots that can enhance community management."
+            ]
+        }
+    ]
+}

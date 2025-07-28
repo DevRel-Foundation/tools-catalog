@@ -1,0 +1,28 @@
+{
+    "name": "Flarum",
+    "url": "https://flarum.org/",
+    "description": "Flarum is a free, open-source forum software that is designed to be simple, fast, and beautiful. It provides a modern discussion platform with a focus on user experience and extensibility.",
+    "labels": ["community"],
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "free open-source",
+            "compatibility": "web-based",
+            "customizability": ["open-source", "plugins", "themes"],
+            "notes": [
+                "Emphasizes mobile-first design, simplicity, and extensibility."
+            ]
+        }
+    ]
+}
