@@ -81,6 +81,11 @@
             "type": "string",
             "const": "want to manage social media accounts"
         },
+        "situation-want-online-community": {
+            "description": "The situation where an online community needs to be built or managed.",
+            "type": "string",
+            "const": "want to build an online community"
+        },
         "motivation-make-information-clearer": {
             "description": "A picture to complement other information can help make relationships and structure much more clear.",
             "type": "string",
@@ -190,6 +195,11 @@
             "description": "When the desired outcome is to set up alerts for brand mentions across multiple channels.",
             "type": "string",
             "const": "social listening alerts"
+        },
+        "outcome-provide-community-support": {
+            "description": "When the desired outcome is to provide technical support to a community through open forums, discussion boards, or other community management tools.",
+            "type": "string",
+            "const": "provide community support"
         }
     },
     "properties": {
@@ -212,27 +222,28 @@
             "items": {
                 "type": "string",
                 "enum": [
-                    "static site generator",
-                    "content management system",
-                    "docs",
-                    "hosting",
-                    "forums",
-                    "streaming",
-                    "video recording",
-                    "podcasting",
-                    "training",
-                    "virtual events",
-                    "user analytics",
-                    "social media",
-                    "developer portal",
                     "api specification",
-                    "product feedback",
-                    "surveys",
-                    "slideshow",
-                    "microphones",
                     "cameras",
-                    "webinar",
-                    "diagramming"
+                    "content management system",
+                    "community",
+                    "developer portal",
+                    "diagramming",
+                    "docs",
+                    "forums",
+                    "hosting",
+                    "microphones",
+                    "podcasting",
+                    "product feedback",
+                    "slideshow",
+                    "social media",
+                    "static site generator",
+                    "surveys",
+                    "streaming",
+                    "training",
+                    "user analytics",
+                    "video recording",
+                    "virtual events",
+                    "webinar"
                 ]
             }
         },
@@ -252,7 +263,8 @@
                             {"$ref": "#/$defs/category-developer-marketing"},
                             {"$ref": "#/$defs/category-web-development"},
                             {"$ref": "#/$defs/category-video-production"},
-                            {"$ref": "#/$defs/category-social-media"}
+                            {"$ref": "#/$defs/category-social-media"},
+                            {"$ref": "#/$defs/category-community-management"}
                         ]
                     }
                 },
@@ -266,7 +278,8 @@
                             {"$ref": "#/$defs/situation-need-instructions"},
                             {"$ref": "#/$defs/situation-manage-website"},
                             {"$ref": "#/$defs/situation-host-production"},
-                            {"$ref": "#/$defs/situation-manage-social-media"}
+                            {"$ref": "#/$defs/situation-manage-social-media"},
+                            {"$ref": "#/$defs/situation-want-online-community"}
                         ]
                     }
                 },
@@ -304,7 +317,8 @@
                             {"$ref": "#/$defs/outcome-create-website"},
                             {"$ref": "#/$defs/outcome-create-video-tutorial"},
                             {"$ref": "#/$defs/outcome-schedule-social-posts"},
-                            {"$ref": "#/$defs/outcome-social-listening-alerts"}
+                            {"$ref": "#/$defs/outcome-social-listening-alerts"},
+                            {"$ref": "#/$defs/outcome-provide-community-support"}
                         ]
                     }
                 }

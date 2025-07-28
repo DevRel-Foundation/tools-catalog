@@ -1,0 +1,28 @@
+{
+    "name": "Vanilla Forums",
+    "url": "https://open.vanillaforums.com/",
+    "description": "Vanilla Forums became Higher Logic Vanilla but continues as an open-source community forum and discussion platform. It provides tools for creating forums, managing discussions, and engaging with your community.",
+    "labels": ["community"],
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "free open-source",
+            "compatibility": "web-based",
+            "customizability": ["open-source", "plugins"],
+            "notes": [
+                "Original Vanilla Forums team that continued to support Vanilla Forums moved on to Flarum."
+            ]
+        }
+    ]
+}

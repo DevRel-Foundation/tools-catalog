@@ -1,0 +1,29 @@
+{
+    "name": "Discourse",
+    "url": "https://www.discourse.org/",
+    "labels": ["community"],
+    "description": "Discourse is an open-source or hosted discussion platform that helps you build a community around your brand or product. It provides tools for creating forums, managing discussions, and engaging with your community.",
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial self-service",
+            "compatibility": "web-based",
+            "customizability": ["open-source", "plugins"],
+            "notes": [
+                "Discourse is open-source and can be self-hosted or hosted plans are priced based on size of support staff."
+            ]
+        }
+    ]
+}

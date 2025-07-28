@@ -1,0 +1,29 @@
+{
+    "name": "Slack",
+    "url": "https://slack.com/",
+    "labels": ["community"],
+    "description": "Slack is a collaboration hub that connects your work with the people you work with. It provides tools for team communication, file sharing, and integration with other services to streamline workflows. It is often used for community building and management including providing technical support and engaging with users.",
+    "jobs": {
+        "categories": ["Community Management"],
+        "situations": [
+            "want to build an online community"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "provide community support"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "limited free",
+            "compatibility": "desktop application",
+            "customizability": ["plugins"],
+            "notes": [
+                "Slack is challenging to use for community management without a secondary ticketing tool that is integrated. For instance, Zendesk and Pylon can be used for support while allowing Slack to be used for communication and discussion. The free tier has a limited history so sometimes important knowledge can be lost."
+            ]
+        }
+    ]
+}
