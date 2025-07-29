@@ -51,6 +51,11 @@
             "type": "string",
             "const": "Community Management"
         },
+        "category-event-management": {
+            "description": "Tools that support event staff and organizers in managing in-person events.",
+            "type": "string",
+            "const": "Event Management"
+        },
         "situation-need-imagery": {
             "description": "The situation is one where imagery is needed to support a project.",
             "type": "string",
@@ -85,6 +90,11 @@
             "description": "The situation where an online community needs to be built or managed.",
             "type": "string",
             "const": "want to build an online community"
+        },
+        "situation-working-on-the-go": {
+            "description": "When the situation requires working remotely while traveling and staying productive.",
+            "type": "string",
+            "const": "working on the go"
         },
         "motivation-make-information-clearer": {
             "description": "A picture to complement other information can help make relationships and structure much more clear.",
@@ -200,6 +210,11 @@
             "description": "When the desired outcome is to provide technical support to a community through open forums, discussion boards, or other community management tools.",
             "type": "string",
             "const": "provide community support"
+        },
+        "outcome-traveled-to-an-event": {
+            "description": "When the desired outcome is to travel to a remote location for an event such as a conference, tradeshow, meetup, on-site.",
+            "type": "string",
+            "const": "traveled to an event"
         }
     },
     "properties": {
@@ -240,6 +255,7 @@
                     "surveys",
                     "streaming",
                     "training",
+                    "travel",
                     "user analytics",
                     "video recording",
                     "virtual events",
@@ -264,7 +280,8 @@
                             {"$ref": "#/$defs/category-web-development"},
                             {"$ref": "#/$defs/category-video-production"},
                             {"$ref": "#/$defs/category-social-media"},
-                            {"$ref": "#/$defs/category-community-management"}
+                            {"$ref": "#/$defs/category-community-management"},
+                            {"$ref": "#/$defs/category-event-management"}
                         ]
                     }
                 },
@@ -279,7 +296,8 @@
                             {"$ref": "#/$defs/situation-manage-website"},
                             {"$ref": "#/$defs/situation-host-production"},
                             {"$ref": "#/$defs/situation-manage-social-media"},
-                            {"$ref": "#/$defs/situation-want-online-community"}
+                            {"$ref": "#/$defs/situation-want-online-community"},
+                            {"$ref": "#/$defs/situation-working-on-the-go"}
                         ]
                     }
                 },
@@ -318,7 +336,8 @@
                             {"$ref": "#/$defs/outcome-create-video-tutorial"},
                             {"$ref": "#/$defs/outcome-schedule-social-posts"},
                             {"$ref": "#/$defs/outcome-social-listening-alerts"},
-                            {"$ref": "#/$defs/outcome-provide-community-support"}
+                            {"$ref": "#/$defs/outcome-provide-community-support"},
+                            {"$ref": "#/$defs/outcome-traveled-to-an-event"}
                         ]
                     }
                 }

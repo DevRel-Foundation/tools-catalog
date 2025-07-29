@@ -1,0 +1,29 @@
+{
+    "name": "ThinkVision M15 Portable Monitor",
+    "description": "15.6-inch portable monitor with USB-C connectivity.",
+    "url": "https://www.lenovo.com/us/en/p/accessories-and-software/monitors/office/62cauar1us", 
+    "labels": ["travel"],
+    "jobs": {
+        "categories": [
+            "Public Speaking",
+            "Event Management"
+        ],
+        "situations": [
+            "working on the go"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "traveled to an event"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "N/A",
+            "decision": "past user",
+            "notes": [
+                "Label them and store toiletries, dirty laundry, tech gear, etc."
+            ]
+        }
+    ]
+}
