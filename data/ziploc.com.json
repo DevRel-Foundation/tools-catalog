@@ -1,0 +1,28 @@
+{
+    "name": "Ziploc Bags",
+    "description": "Ziploc Storage Bags, freezer grade quart size, are durable and perfect for organizing odds and ends within larger bags when traveling. Light, cheap, waterproof, and useful.",
+    "url": "https://ziploc.com/en-us/products/bags/storage/medium", 
+    "labels": ["travel"],
+    "jobs": {
+        "categories": [
+            "Public Speaking",
+            "Event Management"
+        ],
+        "situations": [
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "traveled to an event"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "N/A",
+            "decision": "past user",
+            "notes": [
+                "Label them and store toiletries, dirty laundry, tech gear, etc."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Apple iPad",
+    "description": "For Apple laptops, the iPad is a versatile second screen that can be used for note-taking or as a second monitor and whiteboard.",
+    "url": "https://www.apple.com/ipad/", 
+    "labels": ["travel"],
+    "jobs": {
+        "categories": [
+            "Public Speaking",
+            "Event Management"
+        ],
+        "situations": [
+            "working on the go"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "traveled to an event"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "N/A",
+            "decision": "past user",
+            "notes": [
+                "Airplay directly from any mac device to the iPad, or use Sidecar with a cable to extend the display."
+            ]
+        }
+    ]
+}

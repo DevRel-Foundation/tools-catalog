@@ -1,0 +1,28 @@
+{
+    "name": "MOGICS Super Bagel",
+    "description": "Travel power strip and adapter with multiple outlets and USB ports, designed for travelers to charge multiple devices at once. It is compact, lightweight, and has a built-in surge protector.",
+    "url": "https://www.mogics.com/products/super-bagel",
+    "labels": ["travel"],
+    "jobs": {
+        "categories": [
+            "Public Speaking",
+            "Event Management"
+        ],
+        "situations": [
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "traveled to an event"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "N/A",
+            "decision": "adopted",
+            "notes": [
+                "Works well as an extension cord, international adapter, etc."
+            ]
+        }
+    ]
+}

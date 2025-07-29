@@ -1,0 +1,28 @@
+{
+    "name": "One Bag Subreddit",
+    "description": "A community dedicated to the art of packing light and traveling efficiently with just one travel backpack / bag.",
+    "url": "https://www.reddit.com/r/onebag/",
+    "labels": ["travel"],
+    "jobs": {
+        "categories": [
+            "Public Speaking",
+            "Event Management"
+        ],
+        "situations": [
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+            "traveled to an event"
+        ]
+    },
+    "evaluation": [
+        { 
+            "team": "N/A",
+            "decision": "considering",
+            "notes": [
+                "Spreadsheet lists and reviews dozens of backpacks. Anecdotal positive feedback about Cotopaxi, Everlane, Osprey, and Wenger backpacks."
+            ]
+        }
+    ]
+}
