@@ -4,5 +4,5 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 
 # STREAMING
 
-**Open Broadcaster Software (OBS)** | https://obsproject.com
+**Open Broadcaster Software (OBS)** | https://obsproject.com  
 OBS is a free and open-source software for video recording and live streaming. It allows users to capture real-time video and audio, mix them, and stream or record the output. ([Source Data](../../../data/obsproject.com.json))

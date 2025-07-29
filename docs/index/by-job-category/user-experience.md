@@ -13,6 +13,6 @@ Tools that can help support defining or understanding user experience. This incl
 
 A mockup helps convey interactions and visual elements that must be constructed by others in either low fidelity or full design elements to help understand the scope of work.
 
-**Figma** | https://www.figma.com
+**Figma** | https://www.figma.com  
 Figma is a web-based interface design tool that allows users to create, prototype, and collaborate on designs in real-time. It is widely used for UI/UX design, enabling teams to work together seamlessly on projects, share feedback, and iterate quickly. ([Source Data](../../../data/figma.com.json))
 
