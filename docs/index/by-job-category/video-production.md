@@ -13,6 +13,6 @@ Tools used for the production of audio and video media. This includes video edit
 
 Similar to tutorials or guides in written form, a video tutorial is a multimedia presentation that requires specific tools to create, edit, and publish.
 
-**Open Broadcaster Software (OBS)** | https://obsproject.com
+**Open Broadcaster Software (OBS)** | https://obsproject.com  
 OBS is a free and open-source software for video recording and live streaming. It allows users to capture real-time video and audio, mix them, and stream or record the output. ([Source Data](../../../data/obsproject.com.json))
 

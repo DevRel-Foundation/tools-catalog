@@ -161,7 +161,7 @@ function main() {
 
             let content = contributing_message;
             content += `# ${label.toUpperCase()}\n\n`; 
-            content += index.labels[label].map(tool => `**${tool.name}** | ${tool.url}\n${tool.description} ([Source Data](${tool.file}))`).join('\n\n') + '\n';
+            content += index.labels[label].map(tool => `**${tool.name}** | ${tool.url}  \n${tool.description} ([Source Data](${tool.file}))`).join('\n\n') + '\n';
 
             fs.writeFileSync(outputPath, content, 'utf8');
             log(`Generated: ${outputPath}`);
@@ -194,7 +194,7 @@ function main() {
 
                 content += index.descriptions[outcome] ? `${index.descriptions[outcome]}\n\n` : '';
 
-                content += index.categories[category][outcome].map(tool => `**${tool.name}** | ${tool.url}\n${tool.description} ([Source Data](${tool.file}))`).join('\n\n') + '\n\n';
+                content += index.categories[category][outcome].map(tool => `**${tool.name}** | ${tool.url}  \n${tool.description} ([Source Data](${tool.file}))`).join('\n\n') + '\n\n';
             });
 
             fs.writeFileSync(outputPath, content, 'utf8');
