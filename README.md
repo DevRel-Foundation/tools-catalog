@@ -1,6 +1,6 @@
 # Tools Catalog
 
-The **Tools Catalog** is a [DevRel Foundation](https://github.com/DevRel-Foundation) (DRF) initiative to collect software and tools that aid in completion of developer relations activities. This catalog helps support discovery of resources that help solve day-to-day operatonal challenges.
+The **Tools Catalog** is a [DevRel Foundation](https://github.com/DevRel-Foundation) (DRF) initiative to collect software and tools used by Developer Relations professionals. This catalog helps support discovery of resources that help solve specific day-to-day operatonal tasks.
 
 * [Requirements and Use Cases](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/64)
 
@@ -8,19 +8,17 @@ The **Tools Catalog** is a [DevRel Foundation](https://github.com/DevRel-Foundat
 
 The DevRel Foundation Tools Catalog is an opinionated configuration framework for defining tools in a structured language (JSON) that adheres to an agreed upon standard schema. 
 
-By defining tools in this way, we can establish tooling to validate, restructure, transform views on how to evalate tools for use.
+By defining tools in this way, we can establish tooling to validate, restructure, transform views on how we evalate tools.
 
 ### Explore the Tools Catalog
 
-Tools are indexed by dimensions such as jobs to be done and category.
+Tools are indexed along dimensions such as job categories and labels.
 
-- [Find Tools](./docs/index/index.md)
+- [Explore Tool Indexes](./docs/index/index.md)
 
 ### Learning the DEVREL-TC
 
 - [Getting Started with the Devrel Tools Catalog](./docs/guides/getting-started.md)
-
-## Runbook
 
 ### Validating the Catalog
 
@@ -33,7 +31,6 @@ Tools are indexed by dimensions such as jobs to be done and category.
 ```
 ./bin/tc-index --data data/*.json --schema src/schemas/tools.json --category docs/index/by-job-category --label docs/index/by-label
 ```
-
 
 ## License
 
