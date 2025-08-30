@@ -4,7 +4,7 @@
   "url": "https://www.microsoft.com/powerpoint",
   "labels": ["slideshow"],
   "jobs": {
-    "categories": ["Public Speaking"],
+    "categories": ["Public Speaking", "Team Lead"],
     "situations": ["remote collaboration"],
     "motivations": ["make information clearer"],
     "outcomes": ["created a presentation"]

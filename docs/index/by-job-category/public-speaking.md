@@ -7,6 +7,10 @@ See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
 Tools that support public speaking. This is inclusive of presentation software, slide decks, and other devices used to create and deliver presentations.
 
 - [Traveled To An Event](#traveled-to-an-event)
+- [Create Graphic Design Assets](#create-graphic-design-assets)
+- [Create A Logo](#create-a-logo)
+- [Create An Avatar](#create-an-avatar)
+- [Created A Presentation](#created-a-presentation)
 
 
 ## Traveled To An Event
@@ -27,4 +31,41 @@ A community dedicated to the art of packing light and traveling efficiently with
 
 **Ziploc Bags** | https://ziploc.com/en-us/products/bags/storage/medium  
 Ziploc Storage Bags, freezer grade quart size, are durable and perfect for organizing odds and ends within larger bags when traveling. Light, cheap, waterproof, and useful. ([Source Data](../../../data/ziploc.com.json))
+
+## Create Graphic Design Assets
+
+Graphic design assets unite a brand to tell a story and may take many forms such as page dividers, social banners, in-page graphic elements, etc.
+
+**Canva** | https://www.canva.com  
+Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements. ([Source Data](../../../data/canva.com.json))
+
+## Create A Logo
+
+The company logo and variations of it are central to the design system of a product. There are tools that help specifically to design and edit logos.
+
+**Canva** | https://www.canva.com  
+Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements. ([Source Data](../../../data/canva.com.json))
+
+## Create An Avatar
+
+The individual person or company mascot provides a personification of a brand in the form of an avatar.
+
+**Canva** | https://www.canva.com  
+Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements. ([Source Data](../../../data/canva.com.json))
+
+## Created A Presentation
+
+When the desired outcome is to create a presentation, often using slides or other visual aids.
+
+**Canva** | https://www.canva.com  
+Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements. ([Source Data](../../../data/canva.com.json))
+
+**Microsoft PowerPoint** | https://www.microsoft.com/powerpoint  
+PowerPoint is one of the most widely used presentation tools. It allows users to create slides with text, images, charts, animations, and multimedia. It is suited for business, education, and personal use. ([Source Data](../../../data/microsoft.com.powerpoint.json))
+
+**Prezi** | https://prezi.com  
+Prezi is a presentation tool that uses AI to create better and faster presentations. It allows non-linear storytelling, making presentations more dynamic and engaging. ([Source Data](../../../data/prezi.com.json))
+
+**Google Slides** | https://slides.google.com  
+Google Slides is a cloud-based presentation tool that allows real-time collaboration. It supports text, images, video embedding, and themes, making it popular for teamwork. ([Source Data](../../../data/slides.google.com.json))
 

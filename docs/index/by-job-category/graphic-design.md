@@ -9,6 +9,7 @@ An organization may have dedicated design resources, outsource to independent co
 - [Create Graphic Design Assets](#create-graphic-design-assets)
 - [Create A Logo](#create-a-logo)
 - [Create An Avatar](#create-an-avatar)
+- [Created A Presentation](#created-a-presentation)
 - [Create Infographics](#create-infographics)
 - [Create A User Interface Mockup](#create-a-user-interface-mockup)
 
@@ -30,6 +31,13 @@ Canva is a graphic design platform that allows users to create social media grap
 ## Create An Avatar
 
 The individual person or company mascot provides a personification of a brand in the form of an avatar.
+
+**Canva** | https://www.canva.com  
+Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements. ([Source Data](../../../data/canva.com.json))
+
+## Created A Presentation
+
+When the desired outcome is to create a presentation, often using slides or other visual aids.
 
 **Canva** | https://www.canva.com  
 Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements. ([Source Data](../../../data/canva.com.json))
