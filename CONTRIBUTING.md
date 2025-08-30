@@ -32,10 +32,16 @@ Contribution can take several forms.
 
 Choose the approach that is easiest for you. 
 
-1. Send an email to wg-resource-aggregation + owner AT lists.dev-rel.org to reach the managers who can take action on your suggestions.
-2. Start a **New Discussion** in the [GitHub Discussions](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions). There is a category for feedback and one for the Tools Catalog more specifically. This is a great place to ask a question if unsure.
-3. Create an **Issue** in the [GitHub Issues](https://github.com/DevRel-Foundation/wg-resource-aggregation/issues?q=is%3Aissue%20state%3Aopen%20label%3Aresource%3Atools) for the project with the `resource:tools` label.
-4. Assign an **Issue** to yourself or put in a PR using typical GitHub workflows for change requests.
+1. Assign an **Issue** to yourself or put in a PR using typical GitHub workflows for change requests.
+
+2. Create an **Issue** in the [GitHub Issues](https://github.com/DevRel-Foundation/wg-resource-aggregation/issues?q=is%3Aissue%20state%3Aopen%20label%3Aresource%3Atools) for the project with the `resource:tools` label.
+
+
+
+3. Start a **New Discussion** in the [GitHub Discussions](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions). There is a category for feedback and one for the Tools Catalog more specifically. This is a great place to ask a question if unsure.
+
+4. Send an email to wg-resource-aggregation + owner AT lists.dev-rel.org to reach the managers who can take action on your suggestions.
+
 
 ## What Should You Contribute
 
@@ -44,6 +50,18 @@ Review the [Open GitHub Issues](https://github.com/DevRel-Foundation/wg-resource
 ## How-to Get Help Contributing
 
 Use GitHub Discussions, Discord, or join one of our monthly working group calls to brainstorm and ask questions about how to contribute.
+
+This is a technical project so may require a bit of assistance when contributing more than data.
+
+### Branch Naming Conventions
+
+The naming convention for branches to help keep things organized should follow one of the patterns:
+
+```
+dev/$username/$kebab-case-description
+
+dev/$issue-number/$kebab-case-description
+```
 
 # Orientation
 

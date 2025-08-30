@@ -1,6 +1,6 @@
 
 DO NOT EDIT. This file was automatically generated.
-See [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.
+See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
 # WEB DEVELOPMENT
 

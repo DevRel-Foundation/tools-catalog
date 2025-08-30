@@ -14,7 +14,7 @@ const args = require('yargs')
     .argv;
 
 // Message to insert into generated markdown files
-const contributing_message = '\nDO NOT EDIT. This file was automatically generated.\nSee [CONTRIBUTING](../../CONTRIBUTING.md) for details on updating.\n\n';
+const contributing_message = '\nDO NOT EDIT. This file was automatically generated.\nSee [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.\n\n';
 
 // Function to log messages to stdout if verbose mode is enabled
 function log(msg) {
