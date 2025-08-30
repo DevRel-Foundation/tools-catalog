@@ -2,19 +2,19 @@
   "name": "Microsoft PowerPoint",
   "description": "PowerPoint is one of the most widely used presentation tools. It allows users to create slides with text, images, charts, animations, and multimedia. It is suited for business, education, and personal use.",
   "url": "https://www.microsoft.com/powerpoint",
-  "labels": ["presentation tool"],
+  "labels": ["slideshow"],
   "jobs": {
-    "categories": ["Business Presentations", "Education", "Training"],
-    "situations": ["create slides for meetings", "classroom presentations"],
-    "motivations": ["communicate ideas clearly", "visualize data"],
-    "outcomes": ["professional slide decks"]
+    "categories": ["Public Speaking"],
+    "situations": ["remote collaboration"],
+    "motivations": ["make information clearer"],
+    "outcomes": ["created a presentation"]
   },
   "evaluation": [
     {
-      "team": "Microsoft Office",
-      "pricing": "paid (part of Office 365), free web version",
-      "compatibility": "Windows, Mac, Web",
-      "customizability": ["templates", "animations", "plugins"],
+      "team": "General Feedback",
+      "pricing": "limited free",
+      "compatibility": "web-based",
+      "customizability": ["plugins", "themes"],
       "notes": []
     }
   ]

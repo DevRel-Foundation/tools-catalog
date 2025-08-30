@@ -1,21 +1,23 @@
 {
   "name": "Prezi",
-  "description": "Prezi is a presentation tool that  uses AI to create better and faster presentations. It allows non-linear storytelling, making presentations more dynamic and engaging.",
+  "description": "Prezi is a presentation tool that uses AI to create better and faster presentations. It allows non-linear storytelling, making presentations more dynamic and engaging.",
   "url": "https://prezi.com",
-  "labels": ["presentation tool", "storytelling"],
+  "labels": ["slideshow"],
   "jobs": {
-    "categories": ["Storytelling", "Education", "Marketing"],
-    "situations": ["non-linear presentations", "visual storytelling"],
-    "motivations": ["engage audience", "stand out"],
-    "outcomes": ["dynamic presentations"]
+    "categories": ["Public Speaking", "Team Lead"],
+    "situations": [],
+    "motivations": [],
+    "outcomes": ["created a presentation"]
   },
   "evaluation": [
     {
       "team": "Prezi",
-      "pricing": "free basic, paid plans",
-      "compatibility": "Web, Windows, Mac",
-      "customizability": ["templates", "animations"],
-      "notes": []
+      "pricing": "limited free",
+      "compatibility": "web-based",
+      "customizability": ["themes"],
+      "notes": [
+        "unique for non-linear presentations"
+      ]
     }
   ]
 }
