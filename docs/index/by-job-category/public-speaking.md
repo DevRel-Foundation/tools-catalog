@@ -11,6 +11,7 @@ Tools that support public speaking. This is inclusive of presentation software, 
 - [Create A Logo](#create-a-logo)
 - [Create An Avatar](#create-an-avatar)
 - [Created A Presentation](#created-a-presentation)
+- [Collected Audience Insights](#collected-audience-insights)
 
 
 ## Traveled To An Event
@@ -68,4 +69,11 @@ Prezi is a presentation tool that uses AI to create better and faster presentati
 
 **Google Slides** | https://slides.google.com  
 Google Slides is a cloud-based presentation tool that allows real-time collaboration. It supports text, images, video embedding, and themes, making it popular for teamwork. ([Source Data](../../../data/slides.google.com.json))
+
+## Collected Audience Insights
+
+When the desired outcome is to poll and collect insights, data and feedback from the audience during a presentation.
+
+**Slido** | https://www.slido.com/  
+Slido is an audience interaction tool that allows for live polls, Q&A sessions, and quizzes during presentations. It helps engage the audience and gather feedback in real-time. ([Source Data](../../../data/slido.com.json))
 

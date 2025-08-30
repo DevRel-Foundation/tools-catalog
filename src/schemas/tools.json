@@ -156,6 +156,11 @@
             "type": "string",
             "const": "deliver marketing messages and positioning"
         },
+        "motivation-engage-audience": {
+            "description": "A tool that helps engage the audience during presentations, making the experience more interactive and participatory.",
+            "type": "string",
+            "const": "engage the audience"
+        },
         "outcome-create-infographics": {
             "description": "Infographics can convey complex information visually which aids with understanding. It may convey graphically relationships between objects, quantitative information summarized, etc.\n\nThis may include architecture diagrams, dataflow diagrams, E-R diagrams, and similar development-oriented tasks.",
             "type": "string",
@@ -230,6 +235,11 @@
             "description": "When the desired outcome is to create a presentation, often using slides or other visual aids.",
             "type": "string",
             "const": "created a presentation"
+        },
+        "outcome-collected-audience-insights": {
+            "description": "When the desired outcome is to poll and collect insights, data and feedback from the audience during a presentation.",
+            "type": "string",
+            "const": "collected audience insights"
         }
     },
     "properties": {
@@ -332,7 +342,8 @@
                             {"$ref": "#/$defs/motivation-internal-collaboration"},
                             {"$ref": "#/$defs/motivation-external-contributors"},
                             {"$ref": "#/$defs/motivation-reuse-spec-and-inline-documentation"},
-                            {"$ref": "#/$defs/motivation-deliver-marketing-messages"}
+                            {"$ref": "#/$defs/motivation-deliver-marketing-messages"},
+                            {"$ref": "#/$defs/motivation-engage-audience"}
                         ]
                     }
                 },
@@ -355,7 +366,8 @@
                             {"$ref": "#/$defs/outcome-social-listening-alerts"},
                             {"$ref": "#/$defs/outcome-provide-community-support"},
                             {"$ref": "#/$defs/outcome-traveled-to-an-event"},
-                            {"$ref": "#/$defs/outcome-created-presentation"}
+                            {"$ref": "#/$defs/outcome-created-presentation"},
+                            {"$ref": "#/$defs/outcome-collected-audience-insights"}
                         ]
                     }
                 }

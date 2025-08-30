@@ -1,0 +1,21 @@
+{
+    "name": "Slido",
+    "description": "Slido is an audience interaction tool that allows for live polls, Q&A sessions, and quizzes during presentations. It helps engage the audience and gather feedback in real-time.",
+    "url": "https://www.slido.com/",
+    "labels": ["slideshow", "surveys", "webinar"],
+    "jobs": {
+        "categories": ["Public Speaking"],
+        "situations": [],
+        "motivations": ["engage the audience"],
+        "outcomes": ["collected audience insights"]
+    },
+    "evaluation": [
+        {
+            "team": "General Feedback",
+            "pricing": "limited free",
+            "compatibility": "web-based",
+            "customizability": ["config"],
+            "notes": []
+        }
+    ]
+}
