@@ -4,7 +4,9 @@
     "description": "Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements.",
     "jobs": {
         "categories": [
-            "Graphic Design"
+            "Graphic Design",
+            "Video Production",
+            "Public Speaking"
         ],
         "situations": [
             "want imagery to support a project"
@@ -16,7 +18,8 @@
         "outcomes": [
             "create graphic design assets",
             "create a logo",
-            "create an avatar"
+            "create an avatar",
+            "created a presentation"
         ]
     },
     "evaluation": [
@@ -28,5 +31,10 @@
             "compatibility": "web-based",
             "notes": []
         }
-    ]
+    ],
+    "learning": {
+        "setup": [],
+        "getting-started": [],
+        "advanced": []
+    }
 }

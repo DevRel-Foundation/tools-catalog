@@ -1,0 +1,23 @@
+{
+  "name": "Prezi",
+  "description": "Prezi is a presentation tool that uses AI to create better and faster presentations. It allows non-linear storytelling, making presentations more dynamic and engaging.",
+  "url": "https://prezi.com",
+  "labels": ["slideshow"],
+  "jobs": {
+    "categories": ["Public Speaking", "Team Lead"],
+    "situations": [],
+    "motivations": [],
+    "outcomes": ["created a presentation"]
+  },
+  "evaluation": [
+    {
+      "team": "Prezi",
+      "pricing": "limited free",
+      "compatibility": "web-based",
+      "customizability": ["themes"],
+      "notes": [
+        "unique for non-linear presentations"
+      ]
+    }
+  ]
+}

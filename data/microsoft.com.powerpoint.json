@@ -1,0 +1,21 @@
+{
+  "name": "Microsoft PowerPoint",
+  "description": "PowerPoint is one of the most widely used presentation tools. It allows users to create slides with text, images, charts, animations, and multimedia. It is suited for business, education, and personal use.",
+  "url": "https://www.microsoft.com/powerpoint",
+  "labels": ["slideshow"],
+  "jobs": {
+    "categories": ["Public Speaking", "Team Lead"],
+    "situations": ["remote collaboration"],
+    "motivations": ["make information clearer"],
+    "outcomes": ["created a presentation"]
+  },
+  "evaluation": [
+    {
+      "team": "General Feedback",
+      "pricing": "limited free",
+      "compatibility": "web-based",
+      "customizability": ["plugins", "themes"],
+      "notes": []
+    }
+  ]
+}
