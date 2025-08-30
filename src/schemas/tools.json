@@ -56,6 +56,11 @@
             "type": "string",
             "const": "Event Management"
         },
+        "category-team-lead": {
+            "description": "Tools that support team leadership for internal collaboration, reporting and management.",
+            "type": "string",
+            "const": "Team Lead"
+        },
         "situation-need-imagery": {
             "description": "The situation is one where imagery is needed to support a project.",
             "type": "string",
@@ -95,6 +100,11 @@
             "description": "When the situation requires working remotely while traveling and staying productive.",
             "type": "string",
             "const": "working on the go"
+        },
+        "situation-remote-collaboration": {
+            "description": "The situation is one where team members need to collaborate remotely, often using digital tools to communicate and share common work output.",
+            "type": "string",
+            "const": "remote collaboration"
         },
         "motivation-make-information-clearer": {
             "description": "A picture to complement other information can help make relationships and structure much more clear.",
@@ -215,6 +225,11 @@
             "description": "When the desired outcome is to travel to a remote location for an event such as a conference, tradeshow, meetup, on-site.",
             "type": "string",
             "const": "traveled to an event"
+        },
+        "outcome-created-presentation": {
+            "description": "When the desired outcome is to create a presentation, often using slides or other visual aids.",
+            "type": "string",
+            "const": "created a presentation"
         }
     },
     "properties": {
@@ -281,7 +296,8 @@
                             {"$ref": "#/$defs/category-video-production"},
                             {"$ref": "#/$defs/category-social-media"},
                             {"$ref": "#/$defs/category-community-management"},
-                            {"$ref": "#/$defs/category-event-management"}
+                            {"$ref": "#/$defs/category-event-management"},
+                            {"$ref": "#/$defs/category-team-lead"}
                         ]
                     }
                 },
@@ -297,7 +313,8 @@
                             {"$ref": "#/$defs/situation-host-production"},
                             {"$ref": "#/$defs/situation-manage-social-media"},
                             {"$ref": "#/$defs/situation-want-online-community"},
-                            {"$ref": "#/$defs/situation-working-on-the-go"}
+                            {"$ref": "#/$defs/situation-working-on-the-go"},
+                            {"$ref": "#/$defs/situation-remote-collaboration"}
                         ]
                     }
                 },
@@ -337,7 +354,8 @@
                             {"$ref": "#/$defs/outcome-schedule-social-posts"},
                             {"$ref": "#/$defs/outcome-social-listening-alerts"},
                             {"$ref": "#/$defs/outcome-provide-community-support"},
-                            {"$ref": "#/$defs/outcome-traveled-to-an-event"}
+                            {"$ref": "#/$defs/outcome-traveled-to-an-event"},
+                            {"$ref": "#/$defs/outcome-created-presentation"}
                         ]
                     }
                 }
