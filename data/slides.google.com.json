@@ -1,0 +1,21 @@
+{
+  "name": "Google Slides",
+  "description": "Google Slides is a cloud-based presentation tool that allows real-time collaboration. It supports text, images, video embedding, and themes, making it popular for teamwork.",
+  "url": "https://slides.google.com",
+  "labels": ["presentation tool"],
+  "jobs": {
+    "categories": ["Collaboration", "Education", "Team Presentations"],
+    "situations": ["remote teamwork", "classroom slides"],
+    "motivations": ["easy sharing", "cloud storage", "collaboration"],
+    "outcomes": ["collaborative presentations"]
+  },
+  "evaluation": [
+    {
+      "team": "Google Workspace",
+      "pricing": "free, paid business plans",
+      "compatibility": "Web, Android, iOS",
+      "customizability": ["themes", "plugins"],
+      "notes": []
+    }
+  ]
+}
