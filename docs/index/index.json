@@ -1,0 +1,659 @@
+{
+  "labels": {
+    "api specification": {
+      "tools": [],
+      "count": 0
+    },
+    "cameras": {
+      "tools": [],
+      "count": 0
+    },
+    "content management system": {
+      "tools": [
+        "docusaurus.io",
+        "gitbook.com",
+        "mintlify.com",
+        "mkdocs.org",
+        "readme.io",
+        "readthedocs.com",
+        "starlight.astro.build"
+      ],
+      "count": 7
+    },
+    "community": {
+      "tools": [
+        "answer.apache.org",
+        "discord.com",
+        "discourse.org",
+        "flarum.org",
+        "github.com.features-discussions",
+        "ignitetech.ai.softwarelibrary-answerhub",
+        "open.vanillaforums.com",
+        "slack.com",
+        "stackoverflow.com"
+      ],
+      "count": 9
+    },
+    "developer portal": {
+      "tools": [],
+      "count": 0
+    },
+    "diagramming": {
+      "tools": [
+        "omnigroup.com.omnigraffle"
+      ],
+      "count": 1
+    },
+    "docs": {
+      "tools": [
+        "docusaurus.io",
+        "gitbook.com",
+        "mintlify.com",
+        "mkdocs.org",
+        "readme.io",
+        "readthedocs.com",
+        "starlight.astro.build"
+      ],
+      "count": 7
+    },
+    "forums": {
+      "tools": [],
+      "count": 0
+    },
+    "hosting": {
+      "tools": [],
+      "count": 0
+    },
+    "microphones": {
+      "tools": [],
+      "count": 0
+    },
+    "podcasting": {
+      "tools": [],
+      "count": 0
+    },
+    "product feedback": {
+      "tools": [],
+      "count": 0
+    },
+    "slideshow": {
+      "tools": [
+        "microsoft.com.powerpoint",
+        "prezi.com",
+        "slides.google.com",
+        "slido.com"
+      ],
+      "count": 4
+    },
+    "social media": {
+      "tools": [
+        "awario.com",
+        "brand24.com",
+        "buffer.com",
+        "fedica.com",
+        "hootsuite.com",
+        "sproutsocial.com"
+      ],
+      "count": 6
+    },
+    "static site generator": {
+      "tools": [
+        "docusaurus.io",
+        "gatsbyjs.com",
+        "gohugo.io",
+        "jekyllrb.com",
+        "mkdocs.org",
+        "nextra.site",
+        "starlight.astro.build"
+      ],
+      "count": 7
+    },
+    "surveys": {
+      "tools": [
+        "slido.com"
+      ],
+      "count": 1
+    },
+    "streaming": {
+      "tools": [
+        "obsproject.com"
+      ],
+      "count": 1
+    },
+    "training": {
+      "tools": [],
+      "count": 0
+    },
+    "travel": {
+      "tools": [
+        "apple.com.ipad",
+        "lenovo.com.monitors-thinkvision-m15",
+        "mogics.com",
+        "reddit.com.r-onebag",
+        "ziploc.com"
+      ],
+      "count": 5
+    },
+    "user analytics": {
+      "tools": [],
+      "count": 0
+    },
+    "video recording": {
+      "tools": [
+        "obsproject.com"
+      ],
+      "count": 1
+    },
+    "virtual events": {
+      "tools": [],
+      "count": 0
+    },
+    "webinar": {
+      "tools": [
+        "obsproject.com",
+        "slido.com"
+      ],
+      "count": 2
+    }
+  },
+  "jobs": {
+    "categories": {
+      "Graphic Design": {
+        "description": "An organization may have dedicated design resources, outsource to independent contractors on a per-project basis, or may need to be done by developer relations roles themselves.",
+        "tools": [
+          "canva.com",
+          "draw.io",
+          "figma.com",
+          "omnigroup.com.omnigraffle"
+        ],
+        "count": 4
+      },
+      "Technical Writing": {
+        "description": "Tools that support teams with technical writing. This is inclusive of documentation and blogging solutions for creating tutorials, blog posts, etc.",
+        "tools": [
+          "docusaurus.io",
+          "gatsbyjs.com",
+          "gitbook.com",
+          "gohugo.io",
+          "jekyllrb.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "nextra.site",
+          "readme.io",
+          "readthedocs.com",
+          "starlight.astro.build"
+        ],
+        "count": 11
+      },
+      "Public Speaking": {
+        "description": "Tools that support public speaking. This is inclusive of presentation software, slide decks, and other devices used to create and deliver presentations.",
+        "tools": [
+          "apple.com.ipad",
+          "canva.com",
+          "lenovo.com.monitors-thinkvision-m15",
+          "microsoft.com.powerpoint",
+          "mogics.com",
+          "prezi.com",
+          "reddit.com.r-onebag",
+          "slides.google.com",
+          "slido.com",
+          "ziploc.com"
+        ],
+        "count": 10
+      },
+      "User Experience": {
+        "description": "Tools that can help support defining or understanding user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.",
+        "tools": [
+          "figma.com"
+        ],
+        "count": 1
+      },
+      "Developer Marketing": {
+        "description": "Tools that can help support developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).",
+        "tools": [
+          "gatsbyjs.com",
+          "gohugo.io",
+          "jekyllrb.com",
+          "nextra.site"
+        ],
+        "count": 4
+      },
+      "Web Development": {
+        "description": "Tools used for web development. This includes static site generators, content management systems, and other tools used to create and manage websites.",
+        "tools": [
+          "gatsbyjs.com",
+          "gohugo.io",
+          "jekyllrb.com",
+          "nextra.site"
+        ],
+        "count": 4
+      },
+      "Video Production": {
+        "description": "Tools used for the production of audio and video media. This includes video editing software, screen recording tools, and other tools used to create and manage video content.",
+        "tools": [
+          "canva.com",
+          "obsproject.com"
+        ],
+        "count": 2
+      },
+      "Social Media": {
+        "description": "Tools that are used for managing online communities through social media including scheduling posts, managing accounts, analyzing performance, etc.",
+        "tools": [
+          "awario.com",
+          "brand24.com",
+          "buffer.com",
+          "fedica.com",
+          "hootsuite.com",
+          "sproutsocial.com"
+        ],
+        "count": 6
+      },
+      "Community Management": {
+        "description": "Tools used for managing online communities, forums, and discussion boards.",
+        "tools": [
+          "answer.apache.org",
+          "discord.com",
+          "discourse.org",
+          "flarum.org",
+          "github.com.features-discussions",
+          "ignitetech.ai.softwarelibrary-answerhub",
+          "open.vanillaforums.com",
+          "slack.com",
+          "stackoverflow.com"
+        ],
+        "count": 9
+      },
+      "Event Management": {
+        "description": "Tools that support event staff and organizers in managing in-person events.",
+        "tools": [
+          "apple.com.ipad",
+          "lenovo.com.monitors-thinkvision-m15",
+          "mogics.com",
+          "reddit.com.r-onebag",
+          "ziploc.com"
+        ],
+        "count": 5
+      },
+      "Team Lead": {
+        "description": "Tools that support team leadership for internal collaboration, reporting and management.",
+        "tools": [
+          "microsoft.com.powerpoint",
+          "prezi.com",
+          "slides.google.com"
+        ],
+        "count": 3
+      }
+    },
+    "outcomes": {
+      "create infographics": {
+        "description": "Infographics can convey complex information visually which aids with understanding. It may convey graphically relationships between objects, quantitative information summarized, etc.\n\nThis may include architecture diagrams, dataflow diagrams, E-R diagrams, and similar development-oriented tasks.",
+        "tools": [
+          "draw.io",
+          "omnigroup.com.omnigraffle"
+        ],
+        "count": 2
+      },
+      "create graphic design assets": {
+        "description": "Graphic design assets unite a brand to tell a story and may take many forms such as page dividers, social banners, in-page graphic elements, etc.",
+        "tools": [
+          "canva.com"
+        ],
+        "count": 1
+      },
+      "create a logo": {
+        "description": "The company logo and variations of it are central to the design system of a product. There are tools that help specifically to design and edit logos.",
+        "tools": [
+          "canva.com"
+        ],
+        "count": 1
+      },
+      "create an avatar": {
+        "description": "The individual person or company mascot provides a personification of a brand in the form of an avatar.",
+        "tools": [
+          "canva.com"
+        ],
+        "count": 1
+      },
+      "create a user interface mockup": {
+        "description": "A mockup helps convey interactions and visual elements that must be constructed by others in either low fidelity or full design elements to help understand the scope of work.",
+        "tools": [
+          "draw.io",
+          "figma.com",
+          "omnigroup.com.omnigraffle"
+        ],
+        "count": 3
+      },
+      "create a tutorial": {
+        "description": "Created a tutorial that helps explain how to accomplish a goal or task, such as how-to guides with step-by-step instructions. May be a blog, documentation page, workshop, or video.",
+        "tools": [
+          "docusaurus.io",
+          "gitbook.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "readme.io",
+          "readthedocs.com",
+          "starlight.astro.build"
+        ],
+        "count": 7
+      },
+      "create a conceptual guide": {
+        "description": "Create a conceptual guide that explains from first principles how to accomplish tasks within a domain. This typically includes a fair amount of background that is explained progressively for greater understanding compared to tutorials or reference documentation that may more directly intend to address a question.",
+        "tools": [
+          "docusaurus.io",
+          "gitbook.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "readme.io",
+          "readthedocs.com",
+          "starlight.astro.build"
+        ],
+        "count": 7
+      },
+      "create an API reference": {
+        "description": "Create an API reference that explains the input parameters and output responses of a developer-facing API. This can be done with typical documentation tools but may also be generated from the specificiation for a dynamic or interactive experience.",
+        "tools": [
+          "docusaurus.io",
+          "gitbook.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "readme.io",
+          "readthedocs.com",
+          "starlight.astro.build"
+        ],
+        "count": 7
+      },
+      "create a website": {
+        "description": "Create a website to explain what the product or service offerred is. This includes static websites, progressive web-apps, or output from a CMS.",
+        "tools": [
+          "gatsbyjs.com",
+          "gohugo.io",
+          "jekyllrb.com",
+          "nextra.site"
+        ],
+        "count": 4
+      },
+      "create a video tutorial": {
+        "description": "Similar to tutorials or guides in written form, a video tutorial is a multimedia presentation that requires specific tools to create, edit, and publish.",
+        "tools": [
+          "obsproject.com"
+        ],
+        "count": 1
+      },
+      "schedule social media posts": {
+        "description": "When the desired outcome is to schedule posts to publish in advance across multiple social channels.",
+        "tools": [
+          "buffer.com",
+          "fedica.com",
+          "hootsuite.com",
+          "sproutsocial.com"
+        ],
+        "count": 4
+      },
+      "social listening alerts": {
+        "description": "When the desired outcome is to set up alerts for brand mentions across multiple channels.",
+        "tools": [
+          "awario.com",
+          "brand24.com",
+          "hootsuite.com",
+          "sproutsocial.com"
+        ],
+        "count": 4
+      },
+      "provide community support": {
+        "description": "When the desired outcome is to provide technical support to a community through open forums, discussion boards, or other community management tools.",
+        "tools": [
+          "answer.apache.org",
+          "discord.com",
+          "discourse.org",
+          "flarum.org",
+          "github.com.features-discussions",
+          "ignitetech.ai.softwarelibrary-answerhub",
+          "open.vanillaforums.com",
+          "slack.com",
+          "stackoverflow.com"
+        ],
+        "count": 9
+      },
+      "traveled to an event": {
+        "description": "When the desired outcome is to travel to a remote location for an event such as a conference, tradeshow, meetup, on-site.",
+        "tools": [
+          "apple.com.ipad",
+          "lenovo.com.monitors-thinkvision-m15",
+          "mogics.com",
+          "reddit.com.r-onebag",
+          "ziploc.com"
+        ],
+        "count": 5
+      },
+      "created a presentation": {
+        "description": "When the desired outcome is to create a presentation, often using slides or other visual aids.",
+        "tools": [
+          "canva.com",
+          "microsoft.com.powerpoint",
+          "prezi.com",
+          "slides.google.com"
+        ],
+        "count": 4
+      },
+      "collected audience insights": {
+        "description": "When the desired outcome is to poll and collect insights, data and feedback from the audience during a presentation.",
+        "tools": [
+          "slido.com"
+        ],
+        "count": 1
+      }
+    },
+    "situations": {
+      "want imagery to support a project": {
+        "description": "The situation is one where imagery is needed to support a project.",
+        "tools": [
+          "canva.com",
+          "draw.io",
+          "figma.com",
+          "omnigroup.com.omnigraffle"
+        ],
+        "count": 4
+      },
+      "manage documentation for a project": {
+        "description": "Whether setting up docs from scratch or existing documentation to migrate for a project, this situation requires a tool to help with documentation management.",
+        "tools": [
+          "docusaurus.io",
+          "gitbook.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "readme.io",
+          "readthedocs.com",
+          "starlight.astro.build"
+        ],
+        "count": 7
+      },
+      "manage a public website": {
+        "description": "The situation is one where a website needs to be created or managed, such as a Developer Portal or other marketing site using content management systems and website builders.",
+        "tools": [
+          "gatsbyjs.com",
+          "gohugo.io",
+          "jekyllrb.com",
+          "nextra.site"
+        ],
+        "count": 4
+      },
+      "host a video production": {
+        "description": "The situation is one where a program or event needs to be hosted, such as a live stream, webinar, or virtual event.",
+        "tools": [
+          "obsproject.com"
+        ],
+        "count": 1
+      },
+      "provide instructions": {
+        "description": "The situation is one where documentation needs to be written or edited to explain how to accomplish a goal.",
+        "tools": [
+          "docusaurus.io",
+          "gitbook.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "readme.io",
+          "readthedocs.com",
+          "starlight.astro.build"
+        ],
+        "count": 7
+      },
+      "want to manage social media accounts": {
+        "description": "The situation is one where social media accounts need to be managed, such as scheduling posts, engaging with the audience, and analyzing performance.",
+        "tools": [
+          "awario.com",
+          "brand24.com",
+          "buffer.com",
+          "fedica.com",
+          "hootsuite.com",
+          "sproutsocial.com"
+        ],
+        "count": 6
+      },
+      "want to build an online community": {
+        "description": "The situation where an online community needs to be built or managed.",
+        "tools": [
+          "answer.apache.org",
+          "discord.com",
+          "discourse.org",
+          "flarum.org",
+          "github.com.features-discussions",
+          "ignitetech.ai.softwarelibrary-answerhub",
+          "open.vanillaforums.com",
+          "slack.com",
+          "stackoverflow.com"
+        ],
+        "count": 9
+      },
+      "working on the go": {
+        "description": "When the situation requires working remotely while traveling and staying productive.",
+        "tools": [
+          "apple.com.ipad",
+          "lenovo.com.monitors-thinkvision-m15"
+        ],
+        "count": 2
+      },
+      "remote collaboration": {
+        "description": "The situation is one where team members need to collaborate remotely, often using digital tools to communicate and share common work output.",
+        "tools": [
+          "microsoft.com.powerpoint",
+          "slides.google.com"
+        ],
+        "count": 2
+      }
+    },
+    "motivations": {
+      "make information clearer": {
+        "description": "A picture to complement other information can help make relationships and structure much more clear.",
+        "tools": [
+          "draw.io",
+          "microsoft.com.powerpoint",
+          "omnigroup.com.omnigraffle"
+        ],
+        "count": 3
+      },
+      "create a visual identity": {
+        "description": "A collection of visual elements can be reused by others for various purposes.",
+        "tools": [
+          "canva.com",
+          "figma.com"
+        ],
+        "count": 2
+      },
+      "make information engaging": {
+        "description": "A polished experience with visual elements can grab a user's attention to make it more engaging and emphasize ideas, manage flow through a page, or identify similar items within visual groupings.",
+        "tools": [
+          "canva.com",
+          "draw.io",
+          "figma.com",
+          "omnigroup.com.omnigraffle"
+        ],
+        "count": 4
+      },
+      "help visualize an idea": {
+        "description": "Capture complex or abstract ideas into something visual that helps others imagine what a thing might look like.",
+        "tools": [
+          "draw.io",
+          "figma.com",
+          "omnigroup.com.omnigraffle"
+        ],
+        "count": 3
+      },
+      "organize knowledge": {
+        "description": "Organize knowledge in a way that is easy to understand and navigate.",
+        "tools": [
+          "docusaurus.io",
+          "gitbook.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "readme.io",
+          "readthedocs.com",
+          "starlight.astro.build"
+        ],
+        "count": 7
+      },
+      "ensure clear communication": {
+        "description": "Ensure that the quality of the writing meets the standards required for understanding and clarity.",
+        "tools": [
+          "gatsbyjs.com",
+          "gohugo.io",
+          "jekyllrb.com",
+          "nextra.site"
+        ],
+        "count": 4
+      },
+      "internal collaboration": {
+        "description": "A tool that helps with collaboration, so that multiple team members can work together on a project, share ideas, and provide feedback.",
+        "tools": [
+          "docusaurus.io",
+          "figma.com",
+          "gatsbyjs.com",
+          "gitbook.com",
+          "gohugo.io",
+          "jekyllrb.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "nextra.site",
+          "readme.io",
+          "readthedocs.com",
+          "starlight.astro.build"
+        ],
+        "count": 12
+      },
+      "external contributors": {
+        "description": "A tool that allows for external contributors, so that the community can help with documentation, tutorials, or other content.",
+        "tools": [
+          "docusaurus.io",
+          "gitbook.com",
+          "mintlify.com",
+          "mkdocs.org",
+          "readme.io",
+          "starlight.astro.build"
+        ],
+        "count": 6
+      },
+      "reuse specification and inline documentation": {
+        "description": "Inline documentation or specifications from source-code is a way to document code directly within the codebase, and allows for reuse in generating user documentation.",
+        "tools": [],
+        "count": 0
+      },
+      "deliver marketing messages and positioning": {
+        "description": "A tool that helps deliver marketing messages and positioning, so that the company can effectively communicate its value proposition to developers.",
+        "tools": [
+          "gatsbyjs.com",
+          "gohugo.io",
+          "jekyllrb.com",
+          "nextra.site"
+        ],
+        "count": 4
+      },
+      "engage the audience": {
+        "description": "A tool that helps engage the audience during presentations, making the experience more interactive and participatory.",
+        "tools": [
+          "slido.com"
+        ],
+        "count": 1
+      }
+    }
+  },
+  "total": 40
+}

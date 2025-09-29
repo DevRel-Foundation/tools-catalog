@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# TEAM LEAD
+# Team Lead
 
 Tools that support team leadership for internal collaboration, reporting and management.
 

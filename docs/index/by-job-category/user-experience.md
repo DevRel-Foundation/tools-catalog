@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# USER EXPERIENCE
+# User Experience
 
 Tools that can help support defining or understanding user experience. This includes designing user interfaces and mockups as well as collecting feedback from users.
 

@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# COMMUNITY
+# Community
 
 **Apache Answer** | https://answer.apache.org/  
 Apache Answer is an open-source question-and-answer platform that helps you build a community around your brand or product. It provides tools for creating forums with gamification and integrations. ([Source Data](../../../data/answer.apache.org.json))
@@ -30,3 +30,4 @@ Slack is a collaboration hub that connects your work with the people you work wi
 
 **StackOverflow** | https://stackoverflow.com/  
 StackOverflow is a question-and-answer platform for developers and programmers. It allows users to ask questions, provide answers, and engage in discussions about programming topics. It is widely used for community support and knowledge sharing in the software development industry. ([Source Data](../../../data/stackoverflow.com.json))
+

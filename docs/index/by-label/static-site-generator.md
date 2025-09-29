@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# STATIC SITE GENERATOR
+# Static Site Generator
 
 **Docusaurus** | https://docusaurus.io  
 Docusaurus is an open-source static site generator designed for building documentation websites. It is built by Facebook and supports Markdown, versioning, and localization. ([Source Data](../../../data/docusaurus.io.json))
@@ -24,3 +24,4 @@ Nextra is a static site generator for building documentation websites using Reac
 
 **Starlight** | https://starlight.astro.build/  
 Starlight is a static site generator designed for building documentation websites. It is built on top of Astro and provides a simple way to create and maintain documentation sites with a focus on performance and ease of use. Starlight supports Markdown and offers features like theming, search, and versioning. ([Source Data](../../../data/starlight.astro.build.json))
+

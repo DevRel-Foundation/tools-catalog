@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# WEB DEVELOPMENT
+# Web Development
 
 Tools used for web development. This includes static site generators, content management systems, and other tools used to create and manage websites.
 
