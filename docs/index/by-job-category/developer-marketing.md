@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# DEVELOPER MARKETING
+# Developer Marketing
 
 Tools that can help support developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).
 

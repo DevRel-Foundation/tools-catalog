@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# COMMUNITY MANAGEMENT
+# Community Management
 
 Tools used for managing online communities, forums, and discussion boards.
 

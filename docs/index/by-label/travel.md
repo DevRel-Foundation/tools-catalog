@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# TRAVEL
+# Travel
 
 **Apple iPad** | https://www.apple.com/ipad/  
 For Apple laptops, the iPad is a versatile second screen that can be used for note-taking or as a second monitor and whiteboard. ([Source Data](../../../data/apple.com.ipad.json))
@@ -18,3 +18,4 @@ A community dedicated to the art of packing light and traveling efficiently with
 
 **Ziploc Bags** | https://ziploc.com/en-us/products/bags/storage/medium  
 Ziploc Storage Bags, freezer grade quart size, are durable and perfect for organizing odds and ends within larger bags when traveling. Light, cheap, waterproof, and useful. ([Source Data](../../../data/ziploc.com.json))
+

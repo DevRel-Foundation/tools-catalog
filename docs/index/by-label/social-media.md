@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# SOCIAL MEDIA
+# Social Media
 
 **Awario** | https://awario.com/  
 Awario is a social media monitoring tool that helps you track mentions of your brand, competitors, and industry keywords across social media platforms and the web. Includes X (Twitter), Facebook, Instagram, Reddit, YouTube, Vimeo, Forums, Blogs, etc. ([Source Data](../../../data/awario.com.json))
@@ -21,3 +21,4 @@ Hootsuite is a social media management platform that supports post scheduling, d
 
 **Sprout Social** | https://sproutsocial.com/  
 Sprout Social is a social media management platform that provides tools for scheduling, publishing, analytics, and engagement across social media channels. Supports many integrations and multiple accounts across channels. ([Source Data](../../../data/sproutsocial.com.json))
+

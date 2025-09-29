@@ -2,7 +2,7 @@
 DO NOT EDIT. This file was automatically generated.
 See [CONTRIBUTING](../../../CONTRIBUTING.md) for details on updating.
 
-# EVENT MANAGEMENT
+# Event Management
 
 Tools that support event staff and organizers in managing in-person events.
 
