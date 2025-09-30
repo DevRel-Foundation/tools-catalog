@@ -186,6 +186,7 @@ function read_data_files(files) {
             index.processed[filename] = {
                 asset: asset,
                 name: asset.name || filename,
+                description: asset.description || ''
             };
         } catch (error) {
             console.error(`Error processing ${data}: ${error.message}`);
@@ -274,7 +275,10 @@ function write_json_index(outPath) {
     // Remove the asset data from the index before writing
     Object.keys(index.processed).forEach(key => {
         if (!args.debug) {
-            delete index.processed;
+            // delete index.processed;
+            Object.keys(index.processed).forEach(tool => {
+                delete index.processed[tool].asset;
+            });
             delete index.errors;
         }
     });
