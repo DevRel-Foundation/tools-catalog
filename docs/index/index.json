@@ -1,4 +1,166 @@
 {
+  "processed": {
+    "answer.apache.org": {
+      "name": "Apache Answer",
+      "description": "Apache Answer is an open-source question-and-answer platform that helps you build a community around your brand or product. It provides tools for creating forums with gamification and integrations."
+    },
+    "apple.com.ipad": {
+      "name": "Apple iPad",
+      "description": "For Apple laptops, the iPad is a versatile second screen that can be used for note-taking or as a second monitor and whiteboard."
+    },
+    "awario.com": {
+      "name": "Awario",
+      "description": "Awario is a social media monitoring tool that helps you track mentions of your brand, competitors, and industry keywords across social media platforms and the web. Includes X (Twitter), Facebook, Instagram, Reddit, YouTube, Vimeo, Forums, Blogs, etc."
+    },
+    "brand24.com": {
+      "name": "Brand24",
+      "description": "Brand24 is a social media monitoring tool that helps you track mentions of your brand, competitors, and industry keywords across social media platforms and the web."
+    },
+    "buffer.com": {
+      "name": "Buffer",
+      "description": "Buffer is a social media management platform for scheduling posts and managing multiple social media accounts. Free plan allows unlimited posts from 10 queued at a time across three channels from the supported list including Bluesky, Google Business, LinkedIn, Pinterest, TikTok, YouTube, Facebook, Instagram, Mastodon, Threads, X (Twitter)."
+    },
+    "canva.com": {
+      "name": "Canva",
+      "description": "Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements."
+    },
+    "discord.com": {
+      "name": "Discord",
+      "description": "Discord is a communication platform designed for creating communities. It provides tools for voice, video, and text communication, making it suitable for community building, gaming, and other collaborative activities. Discord is widely used for community management and engagement including support."
+    },
+    "discourse.org": {
+      "name": "Discourse",
+      "description": "Discourse is an open-source or hosted discussion platform that helps you build a community around your brand or product. It provides tools for creating forums, managing discussions, and engaging with your community."
+    },
+    "docusaurus.io": {
+      "name": "Docusaurus",
+      "description": "Docusaurus is an open-source static site generator designed for building documentation websites. It is built by Facebook and supports Markdown, versioning, and localization."
+    },
+    "draw.io": {
+      "name": "Draw.io",
+      "description": "Draw.io is a free online diagramming tool that allows users to create flowcharts, network diagrams, UML diagrams, and other types of visual representations. It features a user-friendly interface with drag-and-drop functionality and supports collaboration through cloud storage or local filesystem integration."
+    },
+    "fedica.com": {
+      "name": "Fedica",
+      "description": "Fedica is a platform for posting across social media platforms. The free plan allows for unlimited posts across nine platforms including Facebook, Tiktok, X (Twitter), YouTube, LinkedIn, Pinterest, Threads, Bluesky, and Mastodon. Paid plans provide tooling for analytics and performance tracking."
+    },
+    "figma.com": {
+      "name": "Figma",
+      "description": "Figma is a web-based interface design tool that allows users to create, prototype, and collaborate on designs in real-time. It is widely used for UI/UX design, enabling teams to work together seamlessly on projects, share feedback, and iterate quickly."
+    },
+    "flarum.org": {
+      "name": "Flarum",
+      "description": "Flarum is a free, open-source forum software that is designed to be simple, fast, and beautiful. It provides a modern discussion platform with a focus on user experience and extensibility."
+    },
+    "gatsbyjs.com": {
+      "name": "Gatsby",
+      "description": "Gatsby is a React-based open-source framework for building fast, modern websites and applications. It uses GraphQL to pull in data from various sources and generate static pages for optimal web performance. Gatsby is known for its speed, scalability, and ability to integrate with various CMSs and APIs."
+    },
+    "gitbook.com": {
+      "name": "Gitbook",
+      "description": "Gitbook is a documentation platform that allows teams to create, manage, and share documentation easily using Markdown. It provides features for real-time collaboration, version control, and integration with various tools."
+    },
+    "github.com.features-discussions": {
+      "name": "GitHub Discussions",
+      "description": "GitHub Discussions is a feature of GitHub that allows you to create discussion forums for individual repositories or a GitHub organization overall. It provides tools for managing discussions, engaging with your community, and building a knowledge base around your projects."
+    },
+    "gohugo.io": {
+      "name": "Hugo",
+      "description": "Hugo is a fast and flexible static site generator written in Go. It is designed for speed and simplicity, allowing users to create websites quickly without the need for a database. Hugo supports a wide range of content types and is known for its powerful templating system and extensive theming capabilities."
+    },
+    "hootsuite.com": {
+      "name": "Hootsuite",
+      "description": "Hootsuite is a social media management platform that supports post scheduling, direct messages, and social listening across social media channels. The entry level plan provides tools for analytics and performance across eight channels with a tiered pricing by volume for posting to Instagram, Facebook, Tiktok, X (Twitter), YouTube, LinkedIn, Pinterest, Threads."
+    },
+    "ignitetech.ai.softwarelibrary-answerhub": {
+      "name": "AnswerHub",
+      "description": "AnswerHub, acquired by IgniteTech, is a community platform that provides tools for building and managing online communities. It offers features for discussion forums, Q&A knowledge management, and community engagement."
+    },
+    "jekyllrb.com": {
+      "name": "Jekyll",
+      "description": "Jekyll is a simple, blog-aware static site generator written in Ruby that takes plain text files and converts them into a complete static website. It is often used with GitHub Pages to create personal, project, or organizational websites. Jekyll supports various templating features and allows for easy content management through Markdown files."
+    },
+    "lenovo.com.monitors-thinkvision-m15": {
+      "name": "ThinkVision M15 Portable Monitor",
+      "description": "15.6-inch portable monitor with USB-C connectivity."
+    },
+    "microsoft.com.powerpoint": {
+      "name": "Microsoft PowerPoint",
+      "description": "PowerPoint is one of the most widely used presentation tools. It allows users to create slides with text, images, charts, animations, and multimedia. It is suited for business, education, and personal use."
+    },
+    "mintlify.com": {
+      "name": "Mintlify",
+      "description": "Mintlify is a documentation platform that allows teams to create, manage, and share documentation easily. It provides features for real-time collaboration, version control, and integration with various tools."
+    },
+    "mkdocs.org": {
+      "name": "MkDocs",
+      "description": "MkDocs is a static site generator that's geared towards project documentation. It uses Markdown for writing content and provides a simple way to create and maintain documentation sites."
+    },
+    "mogics.com": {
+      "name": "MOGICS Super Bagel",
+      "description": "Travel power strip and adapter with multiple outlets and USB ports, designed for travelers to charge multiple devices at once. It is compact, lightweight, and has a built-in surge protector."
+    },
+    "nextra.site": {
+      "name": "Nextra",
+      "description": "Nextra is a static site generator for building documentation websites using React and Next.js. It supports Markdown and provides a simple way to create and maintain documentation sites with a focus on performance and ease of use."
+    },
+    "obsproject.com": {
+      "name": "Open Broadcaster Software (OBS)",
+      "description": "OBS is a free and open-source software for video recording and live streaming. It allows users to capture real-time video and audio, mix them, and stream or record the output."
+    },
+    "omnigroup.com.omnigraffle": {
+      "name": "OmniGraffle",
+      "description": "OmniGraffle is a diagramming and digital illustration application for macOS and iOS. It is used for creating precise, beautiful graphics such as website wireframes, electrical systems, family trees, and maps. OmniGraffle provides a range of tools for drawing shapes, connecting lines, and adding text, making it suitable for both technical and creative projects."
+    },
+    "open.vanillaforums.com": {
+      "name": "Vanilla Forums",
+      "description": "Vanilla Forums became Higher Logic Vanilla but continues as an open-source community forum and discussion platform. It provides tools for creating forums, managing discussions, and engaging with your community."
+    },
+    "prezi.com": {
+      "name": "Prezi",
+      "description": "Prezi is a presentation tool that uses AI to create better and faster presentations. It allows non-linear storytelling, making presentations more dynamic and engaging."
+    },
+    "readme.io": {
+      "name": "Readme",
+      "description": "Readme is a platform for creating and managing API documentation, developer portals, and knowledge bases. It provides tools for interactive API documentation, versioning, and collaboration."
+    },
+    "readthedocs.com": {
+      "name": "ReadtheDocs",
+      "description": "Read the Docs is a documentation hosting platform that automates the building, versioning, and hosting of documentation. It supports various formats including Sphinx and MkDocs, and integrates with version control systems like Git."
+    },
+    "reddit.com.r-onebag": {
+      "name": "One Bag Subreddit",
+      "description": "A community dedicated to the art of packing light and traveling efficiently with just one travel backpack / bag."
+    },
+    "slack.com": {
+      "name": "Slack",
+      "description": "Slack is a collaboration hub that connects your work with the people you work with. It provides tools for team communication, file sharing, and integration with other services to streamline workflows. It is often used for community building and management including providing technical support and engaging with users."
+    },
+    "slides.google.com": {
+      "name": "Google Slides",
+      "description": "Google Slides is a cloud-based presentation tool that allows real-time collaboration. It supports text, images, video embedding, and themes, making it popular for teamwork."
+    },
+    "slido.com": {
+      "name": "Slido",
+      "description": "Slido is an audience interaction tool that allows for live polls, Q&A sessions, and quizzes during presentations. It helps engage the audience and gather feedback in real-time."
+    },
+    "sproutsocial.com": {
+      "name": "Sprout Social",
+      "description": "Sprout Social is a social media management platform that provides tools for scheduling, publishing, analytics, and engagement across social media channels. Supports many integrations and multiple accounts across channels."
+    },
+    "stackoverflow.com": {
+      "name": "StackOverflow",
+      "description": "StackOverflow is a question-and-answer platform for developers and programmers. It allows users to ask questions, provide answers, and engage in discussions about programming topics. It is widely used for community support and knowledge sharing in the software development industry."
+    },
+    "starlight.astro.build": {
+      "name": "Starlight",
+      "description": "Starlight is a static site generator designed for building documentation websites. It is built on top of Astro and provides a simple way to create and maintain documentation sites with a focus on performance and ease of use. Starlight supports Markdown and offers features like theming, search, and versioning."
+    },
+    "ziploc.com": {
+      "name": "Ziploc Bags",
+      "description": "Ziploc Storage Bags, freezer grade quart size, are durable and perfect for organizing odds and ends within larger bags when traveling. Light, cheap, waterproof, and useful."
+    }
+  },
   "labels": {
     "api specification": {
       "tools": [],
