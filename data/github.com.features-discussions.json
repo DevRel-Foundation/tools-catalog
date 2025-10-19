@@ -23,5 +23,18 @@
                 "Used for discussions with the DevRel Foundation community and working group projects."
             ]
         }
-    ]
+    ],
+    "learning": {
+        "setup": [
+            {
+                "type": "article",
+                "title": "Setting up GitHub Discussions for DevRel",
+                "url": "https://dev-rel.org/blog/2025/10/tools-catalog-github-discussions"
+            }
+        ],
+        "getting-started": [
+        ],
+        "advanced": [
+        ]
+    }
 }
