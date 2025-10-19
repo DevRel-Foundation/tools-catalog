@@ -23,5 +23,17 @@
                 "Used for discussions with the DevRel Foundation community and working group projects."
             ]
         }
-    ]
+    ],
+    "learning": {
+        "setup": [
+            {
+                "type": "drf",
+                "url": "https://dev-rel.org/blog/2025/10/tools-catalog-github-discussions"
+            }
+        ],
+        "getting-started": [
+        ],
+        "advanced": [
+        ]
+    }
 }
