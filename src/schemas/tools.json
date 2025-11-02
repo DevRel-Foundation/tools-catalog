@@ -26,6 +26,11 @@
             "type": "string",
             "const": "User Experience"
         },
+        "category-operations": {
+            "description": "Tools that support operational activities for Developer Relations teams. This includes project management, team collaboration, and other tools related to data analytics and reporting.",
+            "type": "string",
+            "const": "Operations"
+        },
         "category-developer-marketing": {
             "description": "Tools that can help support developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).",
             "type": "string",
@@ -60,6 +65,11 @@
             "description": "Tools that support team leadership for internal collaboration, reporting and management.",
             "type": "string",
             "const": "Team Lead"
+        },
+        "category-content-marketing": {
+            "description": "Tools that support content marketing activities for Developer Relations teams. This includes content management systems, seo, automation, and other tools used to create and manage marketing websites and blogs.",
+            "type": "string",
+            "const": "Content Marketing"
         },
         "situation-need-imagery": {
             "description": "The situation is one where imagery is needed to support a project.",
@@ -105,6 +115,11 @@
             "description": "The situation is one where team members need to collaborate remotely, often using digital tools to communicate and share common work output.",
             "type": "string",
             "const": "remote collaboration"
+        },
+        "situation-lack-data": {
+            "description": "The situation is one where there is a lack of data or insights to inform decision-making.",
+            "type": "string",
+            "const": "limited tracking or analytics"
         },
         "motivation-make-information-clearer": {
             "description": "A picture to complement other information can help make relationships and structure much more clear.",
@@ -160,6 +175,11 @@
             "description": "A tool that helps engage the audience during presentations, making the experience more interactive and participatory.",
             "type": "string",
             "const": "engage the audience"
+        },
+        "motivation-understand-roi": {
+            "description": "A tool that helps understand the return on investment (ROI) of developer relations activities, so that the team can demonstrate the value of their work to stakeholders.",
+            "type": "string",
+            "const": "understand ROI"
         },
         "outcome-create-infographics": {
             "description": "Infographics can convey complex information visually which aids with understanding. It may convey graphically relationships between objects, quantitative information summarized, etc.\n\nThis may include architecture diagrams, dataflow diagrams, E-R diagrams, and similar development-oriented tasks.",
@@ -240,6 +260,21 @@
             "description": "When the desired outcome is to poll and collect insights, data and feedback from the audience during a presentation.",
             "type": "string",
             "const": "collected audience insights"
+        },
+        "outcome-data-analytics-collection": {
+            "description": "When the desired outcome is to collect data analytics and metrics to inform decision-making.",
+            "type": "string",
+            "const": "metrics and analytics collection"
+        },
+        "outcome-dashboard-reporting": {
+            "description": "When the desired outcome is to create dashboards and reports to visualize data and insights.",
+            "type": "string",
+            "const": "create dashboards and reports"
+        },
+        "outcome-automation": { 
+            "description": "When the desired outcome is to automate repetitive tasks and workflows to improve efficiency.",
+            "type": "string",
+            "const": "automation of tasks and workflows"
         }
     },
     "properties": {
@@ -263,8 +298,10 @@
                 "type": "string",
                 "enum": [
                     "api specification",
+                    "ai",
                     "cameras",
                     "content management system",
+                    "crm",
                     "community",
                     "developer portal",
                     "diagramming",
@@ -278,6 +315,7 @@
                     "social media",
                     "static site generator",
                     "surveys",
+                    "seo",
                     "streaming",
                     "training",
                     "travel",
@@ -307,7 +345,9 @@
                             {"$ref": "#/$defs/category-social-media"},
                             {"$ref": "#/$defs/category-community-management"},
                             {"$ref": "#/$defs/category-event-management"},
-                            {"$ref": "#/$defs/category-team-lead"}
+                            {"$ref": "#/$defs/category-team-lead"},
+                            {"$ref": "#/$defs/category-operations"},
+                            {"$ref": "#/$defs/category-content-marketing"}
                         ]
                     }
                 },
@@ -324,7 +364,8 @@
                             {"$ref": "#/$defs/situation-manage-social-media"},
                             {"$ref": "#/$defs/situation-want-online-community"},
                             {"$ref": "#/$defs/situation-working-on-the-go"},
-                            {"$ref": "#/$defs/situation-remote-collaboration"}
+                            {"$ref": "#/$defs/situation-remote-collaboration"},
+                            {"$ref": "#/$defs/situation-lack-data"}
                         ]
                     }
                 },
@@ -343,7 +384,8 @@
                             {"$ref": "#/$defs/motivation-external-contributors"},
                             {"$ref": "#/$defs/motivation-reuse-spec-and-inline-documentation"},
                             {"$ref": "#/$defs/motivation-deliver-marketing-messages"},
-                            {"$ref": "#/$defs/motivation-engage-audience"}
+                            {"$ref": "#/$defs/motivation-engage-audience"},
+                            {"$ref": "#/$defs/motivation-understand-roi"}
                         ]
                     }
                 },
@@ -367,7 +409,10 @@
                             {"$ref": "#/$defs/outcome-provide-community-support"},
                             {"$ref": "#/$defs/outcome-traveled-to-an-event"},
                             {"$ref": "#/$defs/outcome-created-presentation"},
-                            {"$ref": "#/$defs/outcome-collected-audience-insights"}
+                            {"$ref": "#/$defs/outcome-collected-audience-insights"},
+                            {"$ref": "#/$defs/outcome-data-analytics-collection"},
+                            {"$ref": "#/$defs/outcome-dashboard-reporting"},
+                            {"$ref": "#/$defs/outcome-automation"}
                         ]
                     }
                 }

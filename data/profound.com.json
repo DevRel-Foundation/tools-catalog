@@ -1,0 +1,31 @@
+{
+    "name": "Profound",
+    "url": "https://www.profound.com/",
+    "description": "Profound is a platform that helps organizations build and manage their online communities.",
+    "labels": ["ai", "seo", "user analytics"],
+    "jobs": {
+        "categories": [
+
+        ],
+        "situations": [
+            "limited tracking or analytics"
+        ],
+        "motivations": [
+        ],
+        "outcomes": [
+             "metrics and analytics collection",
+             "create dashboards and reports"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial self-service",
+            "notes": [
+            ]
+        }
+    ],
+    "learning": {
+    }
+}

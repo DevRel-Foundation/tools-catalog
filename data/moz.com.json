@@ -1,0 +1,33 @@
+{
+    "name": "Moz",
+    "url": "https://moz.com/",
+    "description": "Moz is an SEO software that offers tools for keyword research, link building, and site audits.",
+    "labels": ["seo", "user analytics"],
+    "jobs": {
+        "categories": [
+            "Operations",
+            "Content Marketing"
+        ],
+        "situations": [
+            "limited tracking or analytics"
+        ],
+        "motivations": [
+
+        ],
+        "outcomes": [
+             "metrics and analytics collection",
+             "create dashboards and reports"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial self-service",
+            "notes": [
+            ]
+        }
+    ],
+    "learning": {
+    }
+}

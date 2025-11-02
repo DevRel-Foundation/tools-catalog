@@ -1,0 +1,33 @@
+{
+    "name": "Semrush",
+    "url": "https://semrush.com/",
+    "description": "Semrush is an all-in-one tool suite for improving online visibility and discovering marketing insights.",
+    "labels": ["seo", "user analytics"],
+    "jobs": {
+        "categories": [
+            "Operations",
+            "Content Marketing"
+        ],
+        "situations": [
+            "limited tracking or analytics"
+        ],
+        "motivations": [
+
+        ],
+        "outcomes": [
+             "metrics and analytics collection",
+             "create dashboards and reports"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial self-service",
+            "notes": [
+            ]
+        }
+    ],
+    "learning": {
+    }
+}
