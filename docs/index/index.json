@@ -1,5 +1,13 @@
 {
   "processed": {
+    "ahrefs.com": {
+      "name": "Ahrefs",
+      "description": "Ahrefs is an SEO software that offers tools for keyword research, link building, and site audits."
+    },
+    "analytics.google.com": {
+      "name": "Google Analytics",
+      "description": "Google Analytics is a web analytics service that tracks and reports website traffic, providing insights to improve online presence."
+    },
     "answer.apache.org": {
       "name": "Apache Answer",
       "description": "Apache Answer is an open-source question-and-answer platform that helps you build a community around your brand or product. It provides tools for creating forums with gamification and integrations."
@@ -23,6 +31,10 @@
     "canva.com": {
       "name": "Canva",
       "description": "Canva is a graphic design platform that allows users to create social media graphics, presentations, posters, documents, and other visual content. It provides a user-friendly interface with drag-and-drop features and a vast library of templates and design elements."
+    },
+    "commonroom.io": {
+      "name": "CommonRoom",
+      "description": "CommonRoom is a platform that helps organizations build and manage their online communities."
     },
     "discord.com": {
       "name": "Discord",
@@ -100,6 +112,10 @@
       "name": "MOGICS Super Bagel",
       "description": "Travel power strip and adapter with multiple outlets and USB ports, designed for travelers to charge multiple devices at once. It is compact, lightweight, and has a built-in surge protector."
     },
+    "moz.com": {
+      "name": "Moz",
+      "description": "Moz is an SEO software that offers tools for keyword research, link building, and site audits."
+    },
     "nextra.site": {
       "name": "Nextra",
       "description": "Nextra is a static site generator for building documentation websites using React and Next.js. It supports Markdown and provides a simple way to create and maintain documentation sites with a focus on performance and ease of use."
@@ -116,9 +132,17 @@
       "name": "Vanilla Forums",
       "description": "Vanilla Forums became Higher Logic Vanilla but continues as an open-source community forum and discussion platform. It provides tools for creating forums, managing discussions, and engaging with your community."
     },
+    "posthog.com": {
+      "name": "Posthog",
+      "description": "PostHog is an open-source product analytics platform that helps you understand user behavior and improve your product."
+    },
     "prezi.com": {
       "name": "Prezi",
       "description": "Prezi is a presentation tool that uses AI to create better and faster presentations. It allows non-linear storytelling, making presentations more dynamic and engaging."
+    },
+    "profound.com": {
+      "name": "Profound",
+      "description": "Profound is a platform that helps organizations build and manage their online communities."
     },
     "readme.io": {
       "name": "Readme",
@@ -131,6 +155,14 @@
     "reddit.com.r-onebag": {
       "name": "One Bag Subreddit",
       "description": "A community dedicated to the art of packing light and traveling efficiently with just one travel backpack / bag."
+    },
+    "salesforce.com": {
+      "name": "Salesforce",
+      "description": "CommonRoom is a platform that helps organizations build and manage their online communities."
+    },
+    "semrush.com": {
+      "name": "Semrush",
+      "description": "Semrush is an all-in-one tool suite for improving online visibility and discovering marketing insights."
     },
     "slack.com": {
       "name": "Slack",
@@ -166,6 +198,12 @@
       "tools": [],
       "count": 0
     },
+    "ai": {
+      "tools": [
+        "profound.com"
+      ],
+      "count": 1
+    },
     "cameras": {
       "tools": [],
       "count": 0
@@ -181,6 +219,13 @@
         "starlight.astro.build"
       ],
       "count": 7
+    },
+    "crm": {
+      "tools": [
+        "commonroom.io",
+        "salesforce.com"
+      ],
+      "count": 2
     },
     "community": {
       "tools": [
@@ -276,6 +321,15 @@
       ],
       "count": 1
     },
+    "seo": {
+      "tools": [
+        "ahrefs.com",
+        "moz.com",
+        "profound.com",
+        "semrush.com"
+      ],
+      "count": 4
+    },
     "streaming": {
       "tools": [
         "obsproject.com"
@@ -297,8 +351,15 @@
       "count": 5
     },
     "user analytics": {
-      "tools": [],
-      "count": 0
+      "tools": [
+        "ahrefs.com",
+        "analytics.google.com",
+        "moz.com",
+        "posthog.com",
+        "profound.com",
+        "semrush.com"
+      ],
+      "count": 6
     },
     "video recording": {
       "tools": [
@@ -370,15 +431,30 @@
         ],
         "count": 1
       },
+      "Operations": {
+        "description": "Tools that support operational activities for Developer Relations teams. This includes project management, team collaboration, and other tools related to data analytics and reporting.",
+        "tools": [
+          "ahrefs.com",
+          "analytics.google.com",
+          "commonroom.io",
+          "moz.com",
+          "posthog.com",
+          "salesforce.com",
+          "semrush.com"
+        ],
+        "count": 7
+      },
       "Developer Marketing": {
         "description": "Tools that can help support developer marketing activities. This includes content management systems, website builders, and other tools used to create and manage marketing websites (including Developer Portals).",
         "tools": [
+          "commonroom.io",
           "gatsbyjs.com",
           "gohugo.io",
           "jekyllrb.com",
-          "nextra.site"
+          "nextra.site",
+          "salesforce.com"
         ],
-        "count": 4
+        "count": 6
       },
       "Web Development": {
         "description": "Tools used for web development. This includes static site generators, content management systems, and other tools used to create and manage websites.",
@@ -414,16 +490,18 @@
         "description": "Tools used for managing online communities, forums, and discussion boards.",
         "tools": [
           "answer.apache.org",
+          "commonroom.io",
           "discord.com",
           "discourse.org",
           "flarum.org",
           "github.com.features-discussions",
           "ignitetech.ai.softwarelibrary-answerhub",
           "open.vanillaforums.com",
+          "salesforce.com",
           "slack.com",
           "stackoverflow.com"
         ],
-        "count": 9
+        "count": 11
       },
       "Event Management": {
         "description": "Tools that support event staff and organizers in managing in-person events.",
@@ -444,6 +522,17 @@
           "slides.google.com"
         ],
         "count": 3
+      },
+      "Content Marketing": {
+        "description": "Tools that support content marketing activities for Developer Relations teams. This includes content management systems, seo, automation, and other tools used to create and manage marketing websites and blogs.",
+        "tools": [
+          "ahrefs.com",
+          "analytics.google.com",
+          "moz.com",
+          "posthog.com",
+          "semrush.com"
+        ],
+        "count": 5
       }
     },
     "outcomes": {
@@ -603,6 +692,35 @@
           "slido.com"
         ],
         "count": 1
+      },
+      "metrics and analytics collection": {
+        "description": "When the desired outcome is to collect data analytics and metrics to inform decision-making.",
+        "tools": [
+          "ahrefs.com",
+          "analytics.google.com",
+          "moz.com",
+          "posthog.com",
+          "profound.com",
+          "semrush.com"
+        ],
+        "count": 6
+      },
+      "create dashboards and reports": {
+        "description": "When the desired outcome is to create dashboards and reports to visualize data and insights.",
+        "tools": [
+          "ahrefs.com",
+          "analytics.google.com",
+          "moz.com",
+          "posthog.com",
+          "profound.com",
+          "semrush.com"
+        ],
+        "count": 6
+      },
+      "automation of tasks and workflows": {
+        "description": "When the desired outcome is to automate repetitive tasks and workflows to improve efficiency.",
+        "tools": [],
+        "count": 0
       }
     },
     "situations": {
@@ -701,6 +819,18 @@
           "slides.google.com"
         ],
         "count": 2
+      },
+      "limited tracking or analytics": {
+        "description": "The situation is one where there is a lack of data or insights to inform decision-making.",
+        "tools": [
+          "ahrefs.com",
+          "analytics.google.com",
+          "moz.com",
+          "posthog.com",
+          "profound.com",
+          "semrush.com"
+        ],
+        "count": 6
       }
     },
     "motivations": {
@@ -814,8 +944,16 @@
           "slido.com"
         ],
         "count": 1
+      },
+      "understand ROI": {
+        "description": "A tool that helps understand the return on investment (ROI) of developer relations activities, so that the team can demonstrate the value of their work to stakeholders.",
+        "tools": [
+          "commonroom.io",
+          "salesforce.com"
+        ],
+        "count": 2
       }
     }
   },
-  "total": 40
+  "total": 48
 }
