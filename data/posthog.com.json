@@ -1,0 +1,33 @@
+{
+    "name": "Posthog",
+    "url": "https://www.posthog.com/",
+    "description": "PostHog is an open-source product analytics platform that helps you understand user behavior and improve your product.",
+    "labels": ["user analytics"],
+    "jobs": {
+        "categories": [
+            "Operations",
+            "Content Marketing"
+        ],
+        "situations": [
+            "limited tracking or analytics"
+        ],
+        "motivations": [
+
+        ],
+        "outcomes": [
+             "metrics and analytics collection",
+             "create dashboards and reports"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial self-service",
+            "notes": [
+            ]
+        }
+    ],
+    "learning": {
+    }
+}

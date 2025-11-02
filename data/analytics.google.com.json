@@ -1,0 +1,33 @@
+{
+    "name": "Google Analytics",
+    "url": "https://analytics.google.com/",
+    "description": "Google Analytics is a web analytics service that tracks and reports website traffic, providing insights to improve online presence.",
+    "labels": ["user analytics"],
+    "jobs": {
+        "categories": [
+            "Operations",
+            "Content Marketing"
+        ],
+        "situations": [
+            "limited tracking or analytics"
+        ],
+        "motivations": [
+
+        ],
+        "outcomes": [
+             "metrics and analytics collection",
+             "create dashboards and reports"
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "considering",
+            "pricing": "commercial self-service",
+            "notes": [
+            ]
+        }
+    ],
+    "learning": {
+    }
+}

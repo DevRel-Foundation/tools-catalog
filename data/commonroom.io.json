@@ -1,0 +1,29 @@
+{
+    "name": "CommonRoom",
+    "url": "https://www.commonroom.io/",
+    "description": "CommonRoom is a platform that helps organizations build and manage their online communities.",
+    "labels": ["crm"],
+    "jobs": {
+        "categories": [
+            "Operations",
+            "Community Management",
+            "Developer Marketing"
+        ],
+        "situations": [
+        ],
+        "motivations": [
+            "understand ROI"
+        ],
+        "outcomes": [
+        ]
+    },
+    "evaluation": [
+        {
+            "team": "N/A",
+            "decision": "adopted",
+            "pricing": "commercial enterprise",
+            "notes": [
+            ]
+        }
+    ]
+}
